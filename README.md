@@ -12,7 +12,7 @@ point, not viewing. Entry speed is a first-class requirement.
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173/timeline/
+npm run dev      # http://localhost:5173/timeline2/
 npm test         # 74 tests, headless
 npm run build
 ```
@@ -173,6 +173,13 @@ generated from the SVG. The export dialog carries the settings that don't belong
 in the live view: date range, which rows, maximum height, and label density. It
 reuses the same layout and label functions as the live chart, so what you export
 is what you saw.
+
+## Deployment
+
+Pushing to `main` builds and deploys to GitHub Pages via
+`.github/workflows/deploy.yml`. The repo is `timeline2`, so `base` in
+`vite.config.ts` is `/timeline2/` — it is baked into the built asset paths and
+must match the repo name, or the deployed page loads a blank screen.
 
 ## Design
 
