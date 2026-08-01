@@ -1,0 +1,1825 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "A sample life",
+  "created": "2026-08-01T00:00:00.000Z",
+  "modified": "2026-08-01T00:00:00.000Z"
+ },
+ "tags": [
+  {
+   "id": "t_era",
+   "label": "era",
+   "color": "#5a8460",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_home",
+   "label": "home",
+   "color": "#b87040",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_school",
+   "label": "school",
+   "color": "#8878a8",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_work",
+   "label": "work",
+   "color": "#3d8c7a",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_friends",
+   "label": "friends",
+   "color": "#6a8ca8",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_travel",
+   "label": "travel",
+   "color": "#c49a6c",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_music",
+   "label": "music",
+   "color": "#ac748c",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_health",
+   "label": "health",
+   "color": "#9c6450",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_family",
+   "label": "family",
+   "color": "#5a7898",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_dormant",
+   "label": "dormant",
+   "color": "#8a7d68",
+   "parent": null,
+   "styleChannel": "saturation"
+  },
+  {
+   "id": "t_partner",
+   "label": "partner",
+   "color": "#ac748c",
+   "parent": null,
+   "styleChannel": "stripe"
+  },
+  {
+   "id": "t_fuzzy",
+   "label": "approximate",
+   "color": "#8a7d68",
+   "parent": null,
+   "styleChannel": "outline"
+  }
+ ],
+ "events": [
+  {
+   "id": "e_001",
+   "label": "Childhood in Ohio",
+   "start": 6666,
+   "end": 13380,
+   "ongoing": false,
+   "tags": [
+    "t_era"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_007",
+   "label": "Maple Street, Dayton",
+   "start": 6666,
+   "end": 11517,
+   "ongoing": false,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00v",
+   "label": "Born",
+   "start": 6666,
+   "end": 6666,
+   "ongoing": false,
+   "tags": [
+    "t_family"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00w",
+   "label": "Sister born",
+   "start": 7992,
+   "end": 7992,
+   "ongoing": false,
+   "tags": [
+    "t_family"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00h",
+   "label": "Fairview Elementary",
+   "start": 8642,
+   "end": 10746,
+   "ongoing": false,
+   "tags": [
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01j",
+   "label": "Jonah",
+   "start": 8825,
+   "end": 15355,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_027",
+   "label": "Aiko",
+   "start": 9086,
+   "end": 16127,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01s",
+   "label": "Yuki",
+   "start": 9452,
+   "end": 15635,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01p",
+   "label": "Ravi",
+   "start": 9628,
+   "end": 14905,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01g",
+   "label": "Priya",
+   "start": 9710,
+   "end": 17861,
+   "ongoing": false,
+   "tags": [
+    "t_friends",
+    "t_partner"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_015",
+   "label": "Piano lessons",
+   "start": 9749,
+   "end": 12204,
+   "ongoing": false,
+   "tags": [
+    "t_music"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01m",
+   "label": "Bex",
+   "start": 9790,
+   "end": 14130,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_011",
+   "label": "Broken arm",
+   "start": 10085,
+   "end": 10137,
+   "ongoing": false,
+   "tags": [
+    "t_health"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01e",
+   "label": "Wren",
+   "start": 10237,
+   "end": 16786,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_029",
+   "label": "Zaid",
+   "start": 10279,
+   "end": 14409,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00y",
+   "label": "Parents divorced",
+   "start": 10772,
+   "end": 10772,
+   "ongoing": false,
+   "tags": [
+    "t_family"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00i",
+   "label": "Wright Middle School",
+   "start": 10828,
+   "end": 11844,
+   "ongoing": false,
+   "tags": [
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_026",
+   "label": "Rasmus",
+   "start": 10839,
+   "end": 12851,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_024",
+   "label": "Levi",
+   "start": 10896,
+   "end": 14294,
+   "ongoing": false,
+   "tags": [
+    "t_friends",
+    "t_dormant"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_020",
+   "label": "Femi",
+   "start": 11109,
+   "end": 14738,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_021",
+   "label": "Greta",
+   "start": 11109,
+   "end": 18710,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_016",
+   "label": "Trumpet, school band",
+   "start": 11205,
+   "end": 13302,
+   "ongoing": false,
+   "tags": [
+    "t_music"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_008",
+   "label": "Cedar Court, Dayton",
+   "start": 11504,
+   "end": 13385,
+   "ongoing": false,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01i",
+   "label": "Ines",
+   "start": 11548,
+   "end": 13473,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_028",
+   "label": "Theo",
+   "start": 11745,
+   "end": 16655,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00j",
+   "label": "Dayton Central High",
+   "start": 11925,
+   "end": 13302,
+   "ongoing": false,
+   "tags": [
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01c",
+   "label": "Marisol",
+   "start": 12197,
+   "end": 13713,
+   "ongoing": false,
+   "tags": [
+    "t_friends",
+    "t_dormant"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00m",
+   "label": "Scooping ice cream at Grays",
+   "start": 12570,
+   "end": 13370,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01r",
+   "label": "Oskar",
+   "start": 13071,
+   "end": 19116,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_025",
+   "label": "Clementine",
+   "start": 13277,
+   "end": 16878,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01v",
+   "label": "Noor",
+   "start": 13346,
+   "end": 14520,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_009",
+   "label": "Kerrey Hall (dorm)",
+   "start": 13380,
+   "end": 13653,
+   "ongoing": false,
+   "tags": [
+    "t_home",
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_002",
+   "label": "College years",
+   "start": 13381,
+   "end": 14744,
+   "ongoing": false,
+   "tags": [
+    "t_era"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00k",
+   "label": "BA, Urban Studies",
+   "start": 13381,
+   "end": 14744,
+   "ongoing": false,
+   "tags": [
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00a",
+   "label": "The Baltic Ave house",
+   "start": 13750,
+   "end": 14759,
+   "ongoing": false,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00n",
+   "label": "Campus library shelver",
+   "start": 13760,
+   "end": 14739,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01y",
+   "label": "Ilya",
+   "start": 13766,
+   "end": 19019,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_017",
+   "label": "The Wednesday Nights (band)",
+   "start": 13923,
+   "end": 15206,
+   "ongoing": false,
+   "tags": [
+    "t_music"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01z",
+   "label": "Saoirse",
+   "start": 14248,
+   "end": 15358,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00x",
+   "label": "Grandma Ruth died",
+   "start": 14311,
+   "end": 14311,
+   "ongoing": false,
+   "tags": [
+    "t_family"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01n",
+   "label": "Kofi",
+   "start": 14468,
+   "end": 20783,
+   "ongoing": false,
+   "tags": [
+    "t_friends",
+    "t_dormant"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02a",
+   "label": "Roadtrip to Yellowstone and the Tetons with Sam and Dev",
+   "start": 14472,
+   "end": 14482,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01h",
+   "label": "Callum",
+   "start": 14535,
+   "end": 14535,
+   "ongoing": true,
+   "tags": [
+    "t_friends",
+    "t_dormant"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_003",
+   "label": "The Chicago years",
+   "start": 14745,
+   "end": 17074,
+   "ongoing": false,
+   "tags": [
+    "t_era"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00b",
+   "label": "Logan Square studio",
+   "start": 14761,
+   "end": 15598,
+   "ongoing": false,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00o",
+   "label": "Planning intern, City of Chicago",
+   "start": 14774,
+   "end": 15064,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00p",
+   "label": "Associate planner, Vela Group",
+   "start": 15068,
+   "end": 17067,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_023",
+   "label": "Juno",
+   "start": 15211,
+   "end": 15211,
+   "ongoing": true,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01l",
+   "label": "Emiliano",
+   "start": 15396,
+   "end": 20723,
+   "ongoing": false,
+   "tags": [
+    "t_friends",
+    "t_dormant"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01t",
+   "label": "Talia",
+   "start": 15438,
+   "end": 20034,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00c",
+   "label": "Humboldt Park 2-flat",
+   "start": 15584,
+   "end": 17082,
+   "ongoing": false,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02b",
+   "label": "Two weeks in Oaxaca",
+   "start": 15661,
+   "end": 15674,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00q",
+   "label": "Freelance mapping (side)",
+   "start": 15737,
+   "end": 18138,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_031",
+   "label": "Something I never categorised",
+   "start": 15826,
+   "end": 15918,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01o",
+   "label": "Lucia",
+   "start": 15944,
+   "end": 16089,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00l",
+   "label": "Night classes — GIS certificate",
+   "start": 15951,
+   "end": 16416,
+   "ongoing": false,
+   "tags": [
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01w",
+   "label": "Diego",
+   "start": 16082,
+   "end": 16994,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_012",
+   "label": "Appendectomy",
+   "start": 16128,
+   "end": 16128,
+   "ongoing": false,
+   "tags": [
+    "t_health"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01k",
+   "label": "Nadia",
+   "start": 16174,
+   "end": 17466,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02c",
+   "label": "Iceland ring road",
+   "start": 16599,
+   "end": 16610,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_019",
+   "label": "Choir",
+   "start": 16679,
+   "end": 17045,
+   "ongoing": false,
+   "tags": [
+    "t_music",
+    "t_dormant"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01x",
+   "label": "Maeve",
+   "start": 16838,
+   "end": 17208,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02d",
+   "label": "Sister’s wedding in Savannah",
+   "start": 16897,
+   "end": 16900,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_032",
+   "label": "The summer everything happened at once",
+   "start": 16953,
+   "end": 17074,
+   "ongoing": false,
+   "tags": [
+    "t_home",
+    "t_work",
+    "t_friends",
+    "t_travel",
+    "t_music",
+    "t_health"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01f",
+   "label": "Ade",
+   "start": 16997,
+   "end": 20514,
+   "ongoing": false,
+   "tags": [
+    "t_friends",
+    "t_dormant",
+    "t_partner"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_004",
+   "label": "The Portland years",
+   "start": 17075,
+   "end": 19477,
+   "ongoing": false,
+   "tags": [
+    "t_era"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00d",
+   "label": "SE Belmont apartment",
+   "start": 17075,
+   "end": 18321,
+   "ongoing": false,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00r",
+   "label": "Senior planner, Cascade Civic",
+   "start": 17112,
+   "end": 19461,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_010",
+   "label": "Dog — Biscuit",
+   "start": 17306,
+   "end": 17306,
+   "ongoing": true,
+   "tags": [
+    "t_family"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01b",
+   "label": "Dev",
+   "start": 17359,
+   "end": 17359,
+   "ongoing": true,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_013",
+   "label": "Running consistently",
+   "start": 17539,
+   "end": 17539,
+   "ongoing": true,
+   "tags": [
+    "t_health"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02e",
+   "label": "Backpacking the Wonderland Trail",
+   "start": 17747,
+   "end": 17755,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02f",
+   "label": "Tokyo and Kyoto",
+   "start": 17975,
+   "end": 17990,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02g",
+   "label": "Honeymoon — Lisbon and the Azores",
+   "start": 18148,
+   "end": 18162,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00z",
+   "label": "Married",
+   "start": 18153,
+   "end": 18153,
+   "ongoing": false,
+   "tags": [
+    "t_family"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00e",
+   "label": "The Alberta house",
+   "start": 18307,
+   "end": 19482,
+   "ongoing": false,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_018",
+   "label": "Learning bass",
+   "start": 18353,
+   "end": 18353,
+   "ongoing": true,
+   "tags": [
+    "t_music"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_022",
+   "label": "Anwar",
+   "start": 18800,
+   "end": 18800,
+   "ongoing": true,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02h",
+   "label": "A very long weekend in Marfa",
+   "start": 18909,
+   "end": 18912,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_014",
+   "label": "That long weird illness",
+   "start": 18932,
+   "end": 19052,
+   "ongoing": false,
+   "tags": [
+    "t_health",
+    "t_fuzzy"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01a",
+   "label": "Sam",
+   "start": 19008,
+   "end": 20771,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01u",
+   "label": "Bram",
+   "start": 19009,
+   "end": 20666,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02p",
+   "label": "Scouting site 1",
+   "start": 19144,
+   "end": 19144,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02q",
+   "label": "Scouting site 2",
+   "start": 19146,
+   "end": 19146,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02r",
+   "label": "Scouting site 3",
+   "start": 19148,
+   "end": 19148,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02s",
+   "label": "Scouting site 4",
+   "start": 19150,
+   "end": 19150,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02t",
+   "label": "Scouting site 5",
+   "start": 19152,
+   "end": 19152,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02u",
+   "label": "Scouting site 6",
+   "start": 19154,
+   "end": 19154,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02v",
+   "label": "Scouting site 7",
+   "start": 19156,
+   "end": 19156,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02w",
+   "label": "Scouting site 8",
+   "start": 19158,
+   "end": 19158,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02x",
+   "label": "Scouting site 9",
+   "start": 19160,
+   "end": 19160,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02y",
+   "label": "Scouting site 10",
+   "start": 19162,
+   "end": 19162,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02z",
+   "label": "Scouting site 11",
+   "start": 19164,
+   "end": 19164,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_030",
+   "label": "Scouting site 12",
+   "start": 19166,
+   "end": 19166,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_005",
+   "label": "Van life",
+   "start": 19478,
+   "end": 19889,
+   "ongoing": false,
+   "tags": [
+    "t_era"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00f",
+   "label": "The van",
+   "start": 19478,
+   "end": 19894,
+   "ongoing": false,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00s",
+   "label": "Consulting, self-employed",
+   "start": 19509,
+   "end": 19509,
+   "ongoing": true,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02i",
+   "label": "Driving the Blue Ridge Parkway end to end",
+   "start": 19519,
+   "end": 19526,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02j",
+   "label": "Baja, most of a month",
+   "start": 19664,
+   "end": 19689,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00t",
+   "label": "Contract: transit study",
+   "start": 19730,
+   "end": 20049,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01d",
+   "label": "Tobias",
+   "start": 19774,
+   "end": 20809,
+   "ongoing": false,
+   "tags": [
+    "t_friends",
+    "t_dormant"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02k",
+   "label": "Conference in Amsterdam",
+   "start": 19845,
+   "end": 19849,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00g",
+   "label": "N Killingsworth",
+   "start": 19889,
+   "end": 19889,
+   "ongoing": true,
+   "tags": [
+    "t_home"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_006",
+   "label": "Back in Portland",
+   "start": 19890,
+   "end": 19890,
+   "ongoing": true,
+   "tags": [
+    "t_era"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_00u",
+   "label": "Contract: county bike plan",
+   "start": 19969,
+   "end": 20269,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_01q",
+   "label": "Hattie",
+   "start": 19987,
+   "end": 20802,
+   "ongoing": false,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02l",
+   "label": "Thanksgiving in Ohio",
+   "start": 20028,
+   "end": 20032,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02m",
+   "label": "Utah canyons with Wren",
+   "start": 20181,
+   "end": 20189,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02n",
+   "label": "Day trip to the coast",
+   "start": 20273,
+   "end": 20273,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_02o",
+   "label": "Cascade Lakes loop",
+   "start": 20350,
+   "end": 20352,
+   "ongoing": false,
+   "tags": [
+    "t_travel"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  }
+ ],
+ "rows": [
+  {
+   "id": "r_033",
+   "label": "era",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_era"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 22,
+   "layer": "backdrop",
+   "pinned": true,
+   "sort": "start",
+   "order": 0,
+   "visible": true
+  },
+  {
+   "id": "r_034",
+   "label": "home",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_home"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 30,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 1,
+   "visible": true
+  },
+  {
+   "id": "r_035",
+   "label": "school",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_school"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 30,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 2,
+   "visible": true
+  },
+  {
+   "id": "r_036",
+   "label": "work",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_work"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 30,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 3,
+   "visible": true
+  },
+  {
+   "id": "r_037",
+   "label": "friends",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_friends"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 6,
+   "minSubBandPx": 8,
+   "height": 26,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 4,
+   "visible": true
+  },
+  {
+   "id": "r_038",
+   "label": "travel",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_travel"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 24,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 5,
+   "visible": true
+  },
+  {
+   "id": "r_039",
+   "label": "music",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_music"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 30,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 6,
+   "visible": true
+  },
+  {
+   "id": "r_03a",
+   "label": "health",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_health"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 30,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 7,
+   "visible": true
+  },
+  {
+   "id": "r_03b",
+   "label": "family",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_family"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 24,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 8,
+   "visible": true
+  }
+ ],
+ "views": []
+}

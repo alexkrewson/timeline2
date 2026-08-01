@@ -182,11 +182,14 @@ export function starterDoc(): TimelineDoc {
     makeEvent({ label: 'Belgium', start: d(1993, 1, 1), end: d(1997, 8, 20), tags: [home.id] }),
     makeEvent({ label: 'Portland', start: d(1997, 8, 21), end: d(2011, 6, 1), tags: [home.id] }),
     makeEvent({ label: 'Seattle', start: d(2011, 6, 2), end: d(2020, 3, 1), tags: [home.id] }),
-    makeEvent({ label: 'Portland again', start: d(2020, 3, 2), end: 0, ongoing: true, tags: [home.id] }),
+    // An ongoing event stores end === start; the real end is computed at render
+    // time. Storing a placeholder end would fail the end >= start invariant and
+    // get "repaired" into a 1970 start on the next load.
+    makeEvent({ label: 'Portland again', start: d(2020, 3, 2), ongoing: true, tags: [home.id] }),
     makeEvent({ label: 'University', start: d(2005, 9, 1), end: d(2009, 6, 15), tags: [school.id] }),
     makeEvent({ label: 'First job', start: d(2009, 7, 6), end: d(2014, 2, 28), tags: [work.id] }),
     makeEvent({ label: 'Second job', start: d(2014, 3, 3), end: d(2021, 11, 30), tags: [work.id] }),
-    makeEvent({ label: 'Freelance', start: d(2021, 12, 1), end: 0, ongoing: true, tags: [work.id] }),
+    makeEvent({ label: 'Freelance', start: d(2021, 12, 1), ongoing: true, tags: [work.id] }),
     makeEvent({ label: 'The PDX years', start: d(1997, 8, 21), end: d(2011, 6, 1), tags: [era.id] }),
   ]
 

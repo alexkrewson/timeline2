@@ -29,6 +29,7 @@ type Props = {
   searchOpen: boolean
   onZoom: (notches: number) => void
   onAbout: () => void
+  onLoadSample: () => void
 }
 
 export function Toolbar(props: Props) {
@@ -91,7 +92,12 @@ export function Toolbar(props: Props) {
           + Event
         </button>
 
-        <SettingsMenu prefs={props.prefs} onPrefs={props.onPrefs} onAbout={props.onAbout} />
+        <SettingsMenu
+          prefs={props.prefs}
+          onPrefs={props.onPrefs}
+          onAbout={props.onAbout}
+          onLoadSample={props.onLoadSample}
+        />
       </div>
 
       <div className="toolbar__row toolbar__row--zoom">
@@ -126,10 +132,12 @@ function SettingsMenu({
   prefs,
   onPrefs,
   onAbout,
+  onLoadSample,
 }: {
   prefs: Prefs
   onPrefs: (p: Prefs) => void
   onAbout: () => void
+  onLoadSample: () => void
 }) {
   const [open, setOpen] = useState(false)
   const [section, setSection] = useState<string | null>(null)
@@ -215,6 +223,13 @@ function SettingsMenu({
           </button>
 
           <Section id="advanced" label="Advanced" open={section === 'advanced'} onToggle={toggle}>
+            <button className="btn" onClick={onLoadSample}>
+              Load sample timeline
+            </button>
+            <p className="settings-note">
+              A fictional life — 110 events, heavy overlaps, one-day events and long
+              labels. Replaces what is open; undo brings it back.
+            </p>
             <span className="label">Density</span>
             <div className="mode-toggle">
               {(['compact', 'comfortable', 'spacious'] as Density[]).map((d) => (

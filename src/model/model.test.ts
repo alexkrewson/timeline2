@@ -12,6 +12,7 @@ import {
   normalizeEvent,
   overlapsRange,
   SchemaTooNewError,
+  starterDoc,
 } from './doc'
 import { parseFlexibleDate } from './parseDate'
 import { durationFactor, recommend } from './recommend'
@@ -32,6 +33,23 @@ describe('event invariants', () => {
     expect(durationDays(e)).toBe(today + 1)
     // …and a stale document still reads correctly years later
     expect(effectiveEnd(e, 999_999)).toBe(999_999)
+  })
+
+  it('never stores a placeholder end for an ongoing event', () => {
+    // end: 0 with a modern start passes unnoticed in memory, then loadDoc
+    // "repairs" the reversed range by swapping and the event jumps to 1970.
+    for (const e of starterDoc().events) {
+      expect(e.end).toBeGreaterThanOrEqual(e.start)
+      if (e.ongoing) expect(e.end).toBe(e.start)
+    }
+    const { repairs } = loadDoc(starterDoc())
+    expect(repairs).toEqual([])
+  })
+
+  it('survives a save/reload round trip unchanged', () => {
+    const original = starterDoc()
+    const reloaded = loadDoc(JSON.parse(JSON.stringify(original))).doc
+    expect(reloaded.events).toEqual(original.events)
   })
 
   it('treats end === start as instantaneous, one day long', () => {

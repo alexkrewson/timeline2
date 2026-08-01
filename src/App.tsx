@@ -12,7 +12,7 @@ import { EMPTY_FILTERS, makeFilter, SidePanel, type Filters } from './components
 import { Toolbar } from './components/Toolbar'
 import { usePanZoom } from './hooks/usePanZoom'
 import { useRowMotion } from './hooks/useRowMotion'
-import { effectiveEnd, makeEvent, makeRow, starterDoc } from './model/doc'
+import { effectiveEnd, loadDoc, makeEvent, makeRow, starterDoc } from './model/doc'
 import * as persist from './model/persist'
 import type { CorpusEvent, RowConfig, Tag, TimelineDoc, TimelineEvent } from './model/types'
 import { planLabels } from './render/labels'
@@ -390,6 +390,25 @@ function Workspace() {
         searchOpen={sideOpen}
         onZoom={(n) => animateCamera(zoomAt(getCameraState().cam, getCameraState().width / 2, n), 160)}
         onAbout={() => setAboutOpen(true)}
+        onLoadSample={() => {
+          void import('../samples/sample-life.timeline.json')
+            .then((m) => {
+              const { doc: sampleDoc, repairs } = loadDoc(m.default as unknown as TimelineDoc)
+              // Not resetHistory: loading the sample stays undoable.
+              dispatch({ type: 'replace', doc: sampleDoc })
+              frameRange(
+                Math.min(...sampleDoc.events.map((e) => e.start)),
+                Math.max(...sampleDoc.events.map((e) => effectiveEnd(e, today))),
+                false,
+              )
+              setStatus(
+                repairs.length
+                  ? `Loaded the sample with ${repairs.length} repair(s).`
+                  : 'Loaded the sample timeline.',
+              )
+            })
+            .catch(() => setStatus('Could not load the sample timeline.'))
+        }}
       />
 
       <div className="app__main">
