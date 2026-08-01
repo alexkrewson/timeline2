@@ -1,0 +1,6462 @@
+{
+ "schema": 1,
+ "events": [
+  {
+   "id": "c_big-bang",
+   "label": "Big Bang",
+   "start": -5035597627972,
+   "end": -5035597627972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 1,
+   "topics": [
+    "cosmology",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Big%20Bang"
+  },
+  {
+   "id": "c_cosmic-dark-ages",
+   "label": "Cosmic dark ages",
+   "start": -5035597627972,
+   "end": -4967297280472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "cosmology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cosmic%20dark%20ages"
+  },
+  {
+   "id": "c_first-stars-form",
+   "label": "First stars form",
+   "start": -4967297280472,
+   "end": -4894248780472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "cosmology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20stars%20form"
+  },
+  {
+   "id": "c_milky-way-forms",
+   "label": "Milky Way forms",
+   "start": -4967297280472,
+   "end": -4967297280472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "cosmology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Milky%20Way%20forms"
+  },
+  {
+   "id": "c_formation-of-the-sun",
+   "label": "Formation of the Sun",
+   "start": -1680114780472,
+   "end": -1680114780472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "cosmology",
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Formation%20of%20the%20Sun"
+  },
+  {
+   "id": "c_hadean",
+   "label": "Hadean",
+   "start": -1668061777972,
+   "end": -1472291797972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Hadean"
+  },
+  {
+   "id": "c_formation-of-earth",
+   "label": "Formation of Earth",
+   "start": -1658200230472,
+   "end": -1658200230472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.95,
+   "topics": [
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Formation%20of%20Earth"
+  },
+  {
+   "id": "c_formation-of-the-moon",
+   "label": "Formation of the Moon",
+   "start": -1647242955472,
+   "end": -1647242955472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Formation%20of%20the%20Moon"
+  },
+  {
+   "id": "c_late-heavy-bombardment",
+   "label": "Late Heavy Bombardment",
+   "start": -1497493530472,
+   "end": -1387920780472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Late%20Heavy%20Bombardment"
+  },
+  {
+   "id": "c_archean",
+   "label": "Archean",
+   "start": -1472291797972,
+   "end": -913105530472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Archean"
+  },
+  {
+   "id": "c_first-life-on-earth",
+   "label": "First life on Earth",
+   "start": -1351396530472,
+   "end": -1351396530472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20life%20on%20Earth"
+  },
+  {
+   "id": "c_proterozoic",
+   "label": "Proterozoic",
+   "start": -913105530472,
+   "end": -196791939472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Proterozoic"
+  },
+  {
+   "id": "c_great-oxidation-event",
+   "label": "Great Oxidation Event",
+   "start": -876581280472,
+   "end": -730484280472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "evolution",
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Great%20Oxidation%20Event"
+  },
+  {
+   "id": "c_first-eukaryotes",
+   "label": "First eukaryotes",
+   "start": -657435780472,
+   "end": -657435780472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20eukaryotes"
+  },
+  {
+   "id": "c_snowball-earth",
+   "label": "Snowball Earth",
+   "start": -262973880472,
+   "end": -231928267972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Snowball%20Earth"
+  },
+  {
+   "id": "c_phanerozoic",
+   "label": "Phanerozoic",
+   "start": -196791939472,
+   "end": 20665,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Phanerozoic"
+  },
+  {
+   "id": "c_paleozoic",
+   "label": "Paleozoic",
+   "start": -196791939472,
+   "end": -92003866222,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.88,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Paleozoic"
+  },
+  {
+   "id": "c_cambrian",
+   "label": "Cambrian",
+   "start": -196791939472,
+   "end": -177817591597,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cambrian"
+  },
+  {
+   "id": "c_cambrian-explosion",
+   "label": "Cambrian explosion",
+   "start": -196499745472,
+   "end": -188099167972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.82,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cambrian%20explosion"
+  },
+  {
+   "id": "c_ordovician",
+   "label": "Ordovician",
+   "start": -177817591597,
+   "end": -161838232222,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Ordovician"
+  },
+  {
+   "id": "c_first-land-plants",
+   "label": "First land plants",
+   "start": -171663255472,
+   "end": -171663255472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20land%20plants"
+  },
+  {
+   "id": "c_ordovician-silurian-extinction",
+   "label": "Ordovician–Silurian extinction",
+   "start": -162532192972,
+   "end": -161801707972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "evolution",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Ordovician%E2%80%93Silurian%20extinction"
+  },
+  {
+   "id": "c_silurian",
+   "label": "Silurian",
+   "start": -161838232222,
+   "end": -153262338322,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Silurian"
+  },
+  {
+   "id": "c_devonian",
+   "label": "Devonian",
+   "start": -153262338322,
+   "end": -131070204022,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.76,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Devonian"
+  },
+  {
+   "id": "c_first-vertebrates-on-land",
+   "label": "First vertebrates on land",
+   "start": -136965217972,
+   "end": -131486580472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20vertebrates%20on%20land"
+  },
+  {
+   "id": "c_late-devonian-extinction",
+   "label": "Late Devonian extinction",
+   "start": -135869490472,
+   "end": -131121337972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "evolution",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Late%20Devonian%20extinction"
+  },
+  {
+   "id": "c_carboniferous",
+   "label": "Carboniferous",
+   "start": -131070204022,
+   "end": -109170263722,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Carboniferous"
+  },
+  {
+   "id": "c_pangaea",
+   "label": "Pangaea",
+   "start": -122355517972,
+   "end": -63916717972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Pangaea"
+  },
+  {
+   "id": "c_permian",
+   "label": "Permian",
+   "start": -109170263722,
+   "end": -92003866222,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.76,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Permian"
+  },
+  {
+   "id": "c_mesozoic",
+   "label": "Mesozoic",
+   "start": -92003866222,
+   "end": -24105285472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.88,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Mesozoic"
+  },
+  {
+   "id": "c_triassic",
+   "label": "Triassic",
+   "start": -92003866222,
+   "end": -73559119972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Triassic"
+  },
+  {
+   "id": "c_permian-triassic-extinction",
+   "label": "Permian–Triassic extinction",
+   "start": -92003866222,
+   "end": -92003866222,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "evolution",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Permian%E2%80%93Triassic%20extinction"
+  },
+  {
+   "id": "c_age-of-the-dinosaurs",
+   "label": "Age of the dinosaurs",
+   "start": -85100782972,
+   "end": -24105285472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.86,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Age%20of%20the%20dinosaurs"
+  },
+  {
+   "id": "c_first-mammals",
+   "label": "First mammals",
+   "start": -82178842972,
+   "end": -82178842972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20mammals"
+  },
+  {
+   "id": "c_jurassic",
+   "label": "Jurassic",
+   "start": -73559119972,
+   "end": -52265482222,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Jurassic"
+  },
+  {
+   "id": "c_first-birds",
+   "label": "First birds",
+   "start": -54785655472,
+   "end": -54785655472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20birds"
+  },
+  {
+   "id": "c_cretaceous",
+   "label": "Cretaceous",
+   "start": -52265482222,
+   "end": -24105285472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cretaceous"
+  },
+  {
+   "id": "c_first-flowering-plants",
+   "label": "First flowering plants",
+   "start": -47480805472,
+   "end": -47480805472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20flowering%20plants"
+  },
+  {
+   "id": "c_cenozoic",
+   "label": "Cenozoic",
+   "start": -24105285472,
+   "end": 20665,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.88,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cenozoic"
+  },
+  {
+   "id": "c_paleogene",
+   "label": "Paleogene",
+   "start": -24105285472,
+   "end": -8414467672,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Paleogene"
+  },
+  {
+   "id": "c_paleocene",
+   "label": "Paleocene",
+   "start": -24105285472,
+   "end": -20452860472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Paleocene"
+  },
+  {
+   "id": "c_chicxulub-impact",
+   "label": "Chicxulub impact",
+   "start": -24105285472,
+   "end": -24105285472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "evolution",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Chicxulub%20impact"
+  },
+  {
+   "id": "c_eocene",
+   "label": "Eocene",
+   "start": -20452860472,
+   "end": -12381001222,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Eocene"
+  },
+  {
+   "id": "c_first-primates",
+   "label": "First primates",
+   "start": -20087617972,
+   "end": -20087617972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20primates"
+  },
+  {
+   "id": "c_antarctic-ice-sheet-forms",
+   "label": "Antarctic ice sheet forms",
+   "start": -12417525472,
+   "end": -12417525472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Antarctic%20ice%20sheet%20forms"
+  },
+  {
+   "id": "c_oligocene",
+   "label": "Oligocene",
+   "start": -12381001222,
+   "end": -8414467672,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Oligocene"
+  },
+  {
+   "id": "c_first-apes",
+   "label": "First apes",
+   "start": -9130342972,
+   "end": -9130342972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20apes"
+  },
+  {
+   "id": "c_neogene",
+   "label": "Neogene",
+   "start": -8414467672,
+   "end": -941606122,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Neogene"
+  },
+  {
+   "id": "c_miocene",
+   "label": "Miocene",
+   "start": -8414467672,
+   "end": -1947118725,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Miocene"
+  },
+  {
+   "id": "c_human-chimpanzee-split",
+   "label": "Human–chimpanzee split",
+   "start": -2555977972,
+   "end": -2190735472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Human%E2%80%93chimpanzee%20split"
+  },
+  {
+   "id": "c_pliocene",
+   "label": "Pliocene",
+   "start": -1947118725,
+   "end": -941606122,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Pliocene"
+  },
+  {
+   "id": "c_australopithecus",
+   "label": "Australopithecus",
+   "start": -1533298972,
+   "end": -693241222,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Australopithecus"
+  },
+  {
+   "id": "c_first-stone-tools",
+   "label": "First stone tools",
+   "start": -1204580722,
+   "end": -1204580722,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "evolution",
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20stone%20tools"
+  },
+  {
+   "id": "c_quaternary",
+   "label": "Quaternary",
+   "start": -941606122,
+   "end": 20665,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Quaternary"
+  },
+  {
+   "id": "c_pleistocene",
+   "label": "Pleistocene",
+   "start": -941606122,
+   "end": -3553810,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Pleistocene"
+  },
+  {
+   "id": "c_homo-habilis",
+   "label": "Homo habilis",
+   "start": -875862472,
+   "end": -601930597,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Homo%20habilis"
+  },
+  {
+   "id": "c_homo-erectus",
+   "label": "Homo erectus",
+   "start": -729765472,
+   "end": -39457147,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "evolution"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Homo%20erectus"
+  },
+  {
+   "id": "c_control-of-fire",
+   "label": "Control of fire",
+   "start": -364522972,
+   "end": -364522972,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.66,
+   "topics": [
+    "prehistory",
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Control%20of%20fire"
+  },
+  {
+   "id": "c_neanderthals",
+   "label": "Neanderthals",
+   "start": -145377472,
+   "end": -13890172,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "evolution",
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Neanderthals"
+  },
+  {
+   "id": "c_homo-sapiens-appears",
+   "label": "Homo sapiens appears",
+   "start": -108853222,
+   "end": -108853222,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "evolution",
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Homo%20sapiens%20appears"
+  },
+  {
+   "id": "c_last-glacial-period",
+   "label": "Last glacial period",
+   "start": -41283360,
+   "end": -3553810,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "geology",
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Last%20glacial%20period"
+  },
+  {
+   "id": "c_toba-supereruption",
+   "label": "Toba supereruption",
+   "start": -26308417,
+   "end": -26308417,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "disaster",
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Toba%20supereruption"
+  },
+  {
+   "id": "c_out-of-africa-migration",
+   "label": "Out of Africa migration",
+   "start": -24847447,
+   "end": -17542597,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Out%20of%20Africa%20migration"
+  },
+  {
+   "id": "c_settlement-of-australia",
+   "label": "Settlement of Australia",
+   "start": -23021235,
+   "end": -15716385,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Settlement%20of%20Australia"
+  },
+  {
+   "id": "c_chauvet-cave-paintings",
+   "label": "Chauvet cave paintings",
+   "start": -12429202,
+   "end": -10237747,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "prehistory",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Chauvet%20cave%20paintings"
+  },
+  {
+   "id": "c_last-glacial-maximum",
+   "label": "Last Glacial Maximum",
+   "start": -8776777,
+   "end": -6220080,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "geology",
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Last%20Glacial%20Maximum"
+  },
+  {
+   "id": "c_invention-of-pottery",
+   "label": "Invention of pottery",
+   "start": -7293527,
+   "end": -7293163,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.45,
+   "topics": [
+    "technology",
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Invention%20of%20pottery"
+  },
+  {
+   "id": "c_settlement-of-the-americas",
+   "label": "Settlement of the Americas",
+   "start": -6585322,
+   "end": -4393867,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "prehistory",
+    "americas"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Settlement%20of%20the%20Americas"
+  },
+  {
+   "id": "c_domestication-of-the-dog",
+   "label": "Domestication of the dog",
+   "start": -6197800,
+   "end": -6197436,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "prehistory"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Domestication%20of%20the%20dog"
+  },
+  {
+   "id": "c_lascaux-cave-paintings",
+   "label": "Lascaux cave paintings",
+   "start": -5489595,
+   "end": -5489595,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "prehistory",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Lascaux%20cave%20paintings"
+  },
+  {
+   "id": "c_neolithic-revolution",
+   "label": "Neolithic Revolution",
+   "start": -4371587,
+   "end": -2179768,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.82,
+   "topics": [
+    "prehistory",
+    "ancient"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Neolithic%20Revolution"
+  },
+  {
+   "id": "c_g-bekli-tepe",
+   "label": "Göbekli Tepe",
+   "start": -4188966,
+   "end": -3640738,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "ancient",
+    "religion"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=G%C3%B6bekli%20Tepe"
+  },
+  {
+   "id": "c_jericho-settled",
+   "label": "Jericho settled",
+   "start": -4006345,
+   "end": -4005981,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "ancient"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Jericho%20settled"
+  },
+  {
+   "id": "c_younger-dryas",
+   "label": "Younger Dryas",
+   "start": -3992101,
+   "end": -3553810,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.52,
+   "topics": [
+    "geology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Younger%20Dryas"
+  },
+  {
+   "id": "c_holocene",
+   "label": "Holocene",
+   "start": -3553810,
+   "end": 20665,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "geology",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Holocene"
+  },
+  {
+   "id": "c_atalh-y-k",
+   "label": "Çatalhöyük",
+   "start": -3458481,
+   "end": -2800681,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "ancient"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=%C3%87atalh%C3%B6y%C3%BCk"
+  },
+  {
+   "id": "c_sumerian-civilisation",
+   "label": "Sumerian civilisation",
+   "start": -2362754,
+   "end": -1412759,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "ancient",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Sumerian%20civilisation"
+  },
+  {
+   "id": "c_invention-of-the-wheel",
+   "label": "Invention of the wheel",
+   "start": -1997511,
+   "end": -1997147,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "technology",
+    "ancient"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Invention%20of%20the%20wheel"
+  },
+  {
+   "id": "c_bronze-age",
+   "label": "Bronze Age",
+   "start": -1924463,
+   "end": -1157089,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "ancient",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Bronze%20Age"
+  },
+  {
+   "id": "c_indus-valley-civilisation",
+   "label": "Indus Valley Civilisation",
+   "start": -1924463,
+   "end": -1193614,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "ancient",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Indus%20Valley%20Civilisation"
+  },
+  {
+   "id": "c_invention-of-writing-sumer",
+   "label": "Invention of writing (Sumer)",
+   "start": -1887938,
+   "end": -1887574,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "ancient",
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Invention%20of%20writing%20(Sumer)"
+  },
+  {
+   "id": "c_ancient-egypt",
+   "label": "Ancient Egypt",
+   "start": -1851414,
+   "end": -729756,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.88,
+   "topics": [
+    "ancient",
+    "africa",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Ancient%20Egypt"
+  },
+  {
+   "id": "c_early-dynastic-egypt",
+   "label": "Early Dynastic Egypt",
+   "start": -1851414,
+   "end": -1699840,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "ancient",
+    "africa"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Early%20Dynastic%20Egypt"
+  },
+  {
+   "id": "c_stonehenge",
+   "label": "Stonehenge",
+   "start": -1814890,
+   "end": -1449283,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "ancient",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Stonehenge"
+  },
+  {
+   "id": "c_minoan-civilisation",
+   "label": "Minoan civilisation",
+   "start": -1814890,
+   "end": -1120565,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "ancient",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Minoan%20civilisation"
+  },
+  {
+   "id": "c_old-kingdom-of-egypt",
+   "label": "Old Kingdom of Egypt",
+   "start": -1700204,
+   "end": -1515392,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "ancient",
+    "africa"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Old%20Kingdom%20of%20Egypt"
+  },
+  {
+   "id": "c_great-pyramid-of-giza",
+   "label": "Great Pyramid of Giza",
+   "start": -1654183,
+   "end": -1653819,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "ancient",
+    "africa"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Great%20Pyramid%20of%20Giza"
+  },
+  {
+   "id": "c_akkadian-empire",
+   "label": "Akkadian Empire",
+   "start": -1571638,
+   "end": -1505531,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "ancient",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Akkadian%20Empire"
+  },
+  {
+   "id": "c_middle-kingdom-of-egypt",
+   "label": "Middle Kingdom of Egypt",
+   "start": -1469736,
+   "end": -1321449,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "ancient",
+    "africa"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Middle%20Kingdom%20of%20Egypt"
+  },
+  {
+   "id": "c_code-of-hammurabi",
+   "label": "Code of Hammurabi",
+   "start": -1359798,
+   "end": -1359434,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "ancient",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Code%20of%20Hammurabi"
+  },
+  {
+   "id": "c_mycenaean-greece",
+   "label": "Mycenaean Greece",
+   "start": -1358337,
+   "end": -1102303,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.52,
+   "topics": [
+    "ancient",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Mycenaean%20Greece"
+  },
+  {
+   "id": "c_shang-dynasty",
+   "label": "Shang dynasty",
+   "start": -1303550,
+   "end": -1100842,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "ancient",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Shang%20dynasty"
+  },
+  {
+   "id": "c_eruption-of-thera",
+   "label": "Eruption of Thera",
+   "start": -1303550,
+   "end": -1303186,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "disaster",
+    "ancient"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Eruption%20of%20Thera"
+  },
+  {
+   "id": "c_new-kingdom-of-egypt",
+   "label": "New Kingdom of Egypt",
+   "start": -1285288,
+   "end": -1109242,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "ancient",
+    "africa"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=New%20Kingdom%20of%20Egypt"
+  },
+  {
+   "id": "c_reign-of-tutankhamun",
+   "label": "Reign of Tutankhamun",
+   "start": -1205665,
+   "end": -1202014,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "ancient",
+    "africa"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Reign%20of%20Tutankhamun"
+  },
+  {
+   "id": "c_iron-age",
+   "label": "Iron Age",
+   "start": -1157453,
+   "end": -919682,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "ancient",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Iron%20Age"
+  },
+  {
+   "id": "c_late-bronze-age-collapse",
+   "label": "Late Bronze Age collapse",
+   "start": -1157453,
+   "end": -1138827,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "ancient",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Late%20Bronze%20Age%20collapse"
+  },
+  {
+   "id": "c_olmec-civilisation",
+   "label": "Olmec civilisation",
+   "start": -1157453,
+   "end": -864895,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "ancient",
+    "americas"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Olmec%20civilisation"
+  },
+  {
+   "id": "c_phoenician-alphabet",
+   "label": "Phoenician alphabet",
+   "start": -1102667,
+   "end": -1102303,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "ancient",
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Phoenician%20alphabet"
+  },
+  {
+   "id": "c_kingdom-of-israel",
+   "label": "Kingdom of Israel",
+   "start": -1101571,
+   "end": -1058474,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.52,
+   "topics": [
+    "ancient",
+    "religion"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Kingdom%20of%20Israel"
+  },
+  {
+   "id": "c_zhou-dynasty",
+   "label": "Zhou dynasty",
+   "start": -1101206,
+   "end": -812300,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "ancient",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Zhou%20dynasty"
+  },
+  {
+   "id": "c_neo-assyrian-empire",
+   "label": "Neo-Assyrian Empire",
+   "start": -1051898,
+   "end": -941230,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.52,
+   "topics": [
+    "ancient",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Neo-Assyrian%20Empire"
+  },
+  {
+   "id": "c_first-olympic-games",
+   "label": "First Olympic Games",
+   "start": -1002590,
+   "end": -1002226,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "ancient",
+    "sports"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20Olympic%20Games"
+  },
+  {
+   "id": "c_founding-of-rome-traditional",
+   "label": "Founding of Rome (traditional)",
+   "start": -994190,
+   "end": -993825,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "ancient",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Founding%20of%20Rome%20(traditional)"
+  },
+  {
+   "id": "c_homer-composes-the-iliad",
+   "label": "Homer composes the Iliad",
+   "start": -993094,
+   "end": -974468,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "ancient",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Homer%20composes%20the%20Iliad"
+  },
+  {
+   "id": "c_neo-babylonian-empire",
+   "label": "Neo-Babylonian Empire",
+   "start": -947804,
+   "end": -915664,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "ancient",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Neo-Babylonian%20Empire"
+  },
+  {
+   "id": "c_life-of-the-buddha",
+   "label": "Life of the Buddha",
+   "start": -924794,
+   "end": -895211,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "religion",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20the%20Buddha"
+  },
+  {
+   "id": "c_life-of-confucius",
+   "label": "Life of Confucius",
+   "start": -920411,
+   "end": -893750,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "religion",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Confucius"
+  },
+  {
+   "id": "c_achaemenid-persian-empire",
+   "label": "Achaemenid Persian Empire",
+   "start": -920046,
+   "end": -839328,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "ancient",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Achaemenid%20Persian%20Empire"
+  },
+  {
+   "id": "c_classical-greece",
+   "label": "Classical Greece",
+   "start": -905436,
+   "end": -836771,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "classical",
+    "europe",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Classical%20Greece"
+  },
+  {
+   "id": "c_roman-republic",
+   "label": "Roman Republic",
+   "start": -905071,
+   "end": -728660,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "classical",
+    "politics",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Roman%20Republic"
+  },
+  {
+   "id": "c_athenian-democracy",
+   "label": "Athenian democracy",
+   "start": -904705,
+   "end": -836406,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "classical",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Athenian%20democracy"
+  },
+  {
+   "id": "c_greco-persian-wars",
+   "label": "Greco-Persian Wars",
+   "start": -901419,
+   "end": -882792,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "classical",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Greco-Persian%20Wars"
+  },
+  {
+   "id": "c_life-of-socrates",
+   "label": "Life of Socrates",
+   "start": -890827,
+   "end": -864530,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "classical",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Socrates"
+  },
+  {
+   "id": "c_parthenon-built",
+   "label": "Parthenon built",
+   "start": -882426,
+   "end": -876583,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "classical",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Parthenon%20built"
+  },
+  {
+   "id": "c_peloponnesian-war",
+   "label": "Peloponnesian War",
+   "start": -876582,
+   "end": -866356,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "classical",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Peloponnesian%20War"
+  },
+  {
+   "id": "c_life-of-plato",
+   "label": "Life of Plato",
+   "start": -875486,
+   "end": -845902,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "classical",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Plato"
+  },
+  {
+   "id": "c_life-of-aristotle",
+   "label": "Life of Aristotle",
+   "start": -859415,
+   "end": -836406,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "classical",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Aristotle"
+  },
+  {
+   "id": "c_conquests-of-alexander-the-great",
+   "label": "Conquests of Alexander the Great",
+   "start": -841883,
+   "end": -836771,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "classical",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Conquests%20of%20Alexander%20the%20Great"
+  },
+  {
+   "id": "c_hellenistic-period",
+   "label": "Hellenistic period",
+   "start": -837135,
+   "end": -730121,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "classical",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Hellenistic%20period"
+  },
+  {
+   "id": "c_maurya-empire",
+   "label": "Maurya Empire",
+   "start": -836770,
+   "end": -786368,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "classical",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Maurya%20Empire"
+  },
+  {
+   "id": "c_library-of-alexandria",
+   "label": "Library of Alexandria",
+   "start": -823257,
+   "end": -736330,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "classical",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Library%20of%20Alexandria"
+  },
+  {
+   "id": "c_punic-wars",
+   "label": "Punic Wars",
+   "start": -815586,
+   "end": -772124,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "classical",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Punic%20Wars"
+  },
+  {
+   "id": "c_qin-dynasty-unifies-china",
+   "label": "Qin dynasty unifies China",
+   "start": -799881,
+   "end": -794038,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "classical",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Qin%20dynasty%20unifies%20China"
+  },
+  {
+   "id": "c_terracotta-army",
+   "label": "Terracotta Army",
+   "start": -795863,
+   "end": -795499,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "classical",
+    "art",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Terracotta%20Army"
+  },
+  {
+   "id": "c_han-dynasty",
+   "label": "Han dynasty",
+   "start": -792941,
+   "end": -638810,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "classical",
+    "asia",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Han%20dynasty"
+  },
+  {
+   "id": "c_silk-road-opens",
+   "label": "Silk Road opens",
+   "start": -766644,
+   "end": -766280,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "classical",
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Silk%20Road%20opens"
+  },
+  {
+   "id": "c_life-of-julius-caesar",
+   "label": "Life of Julius Caesar",
+   "start": -755687,
+   "end": -734869,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "classical",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Julius%20Caesar"
+  },
+  {
+   "id": "c_assassination-of-julius-caesar",
+   "label": "Assassination of Julius Caesar",
+   "start": -735160,
+   "end": -735160,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "classical",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Assassination%20of%20Julius%20Caesar"
+  },
+  {
+   "id": "c_roman-empire",
+   "label": "Roman Empire",
+   "start": -729024,
+   "end": -545307,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "classical",
+    "politics",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Roman%20Empire"
+  },
+  {
+   "id": "c_pax-romana",
+   "label": "Pax Romana",
+   "start": -729024,
+   "end": -653419,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "classical",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Pax%20Romana"
+  },
+  {
+   "id": "c_life-of-jesus",
+   "label": "Life of Jesus",
+   "start": -720623,
+   "end": -708206,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.88,
+   "topics": [
+    "religion"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Jesus"
+  },
+  {
+   "id": "c_eruption-of-vesuvius-destroys-pompeii",
+   "label": "Eruption of Vesuvius destroys Pompeii",
+   "start": -690438,
+   "end": -690438,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "classical",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Eruption%20of%20Vesuvius%20destroys%20Pompeii"
+  },
+  {
+   "id": "c_colosseum-completed",
+   "label": "Colosseum completed",
+   "start": -690308,
+   "end": -689943,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "classical",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Colosseum%20completed"
+  },
+  {
+   "id": "c_antonine-plague",
+   "label": "Antonine Plague",
+   "start": -659262,
+   "end": -653419,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "classical",
+    "medicine"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Antonine%20Plague"
+  },
+  {
+   "id": "c_crisis-of-the-third-century",
+   "label": "Crisis of the Third Century",
+   "start": -633696,
+   "end": -615434,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.48,
+   "topics": [
+    "classical",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Crisis%20of%20the%20Third%20Century"
+  },
+  {
+   "id": "c_constantine-legalises-christianity",
+   "label": "Constantine legalises Christianity",
+   "start": -605207,
+   "end": -604843,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "classical",
+    "religion"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Constantine%20legalises%20Christianity"
+  },
+  {
+   "id": "c_gupta-empire",
+   "label": "Gupta Empire",
+   "start": -602651,
+   "end": -518280,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "classical",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Gupta%20Empire"
+  },
+  {
+   "id": "c_council-of-nicaea",
+   "label": "Council of Nicaea",
+   "start": -600824,
+   "end": -600460,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "religion"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Council%20of%20Nicaea"
+  },
+  {
+   "id": "c_constantinople-founded",
+   "label": "Constantinople founded",
+   "start": -598998,
+   "end": -598634,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "classical",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Constantinople%20founded"
+  },
+  {
+   "id": "c_byzantine-empire",
+   "label": "Byzantine Empire",
+   "start": -598998,
+   "end": -188466,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "medieval",
+    "europe",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Byzantine%20Empire"
+  },
+  {
+   "id": "c_fall-of-the-western-roman-empire",
+   "label": "Fall of the Western Roman Empire",
+   "start": -545672,
+   "end": -545307,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "classical",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Fall%20of%20the%20Western%20Roman%20Empire"
+  },
+  {
+   "id": "c_middle-ages",
+   "label": "Middle Ages",
+   "start": -545672,
+   "end": -188466,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "medieval",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Middle%20Ages"
+  },
+  {
+   "id": "c_early-middle-ages",
+   "label": "Early Middle Ages",
+   "start": -545672,
+   "end": -353921,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "medieval",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Early%20Middle%20Ages"
+  },
+  {
+   "id": "c_plague-of-justinian",
+   "label": "Plague of Justinian",
+   "start": -521931,
+   "end": -518645,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "medieval",
+    "medicine"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Plague%20of%20Justinian"
+  },
+  {
+   "id": "c_life-of-muhammad",
+   "label": "Life of Muhammad",
+   "start": -511339,
+   "end": -488330,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "religion",
+    "medieval"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Muhammad"
+  },
+  {
+   "id": "c_tang-dynasty",
+   "label": "Tang dynasty",
+   "start": -493808,
+   "end": -387889,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "medieval",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Tang%20dynasty"
+  },
+  {
+   "id": "c_early-muslim-conquests",
+   "label": "Early Muslim conquests",
+   "start": -492347,
+   "end": -445232,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "medieval",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Early%20Muslim%20conquests"
+  },
+  {
+   "id": "c_islamic-golden-age",
+   "label": "Islamic Golden Age",
+   "start": -432447,
+   "end": -259688,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "medieval",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Islamic%20Golden%20Age"
+  },
+  {
+   "id": "c_viking-age",
+   "label": "Viking Age",
+   "start": -429890,
+   "end": -329815,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "medieval",
+    "europe",
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Viking%20Age"
+  },
+  {
+   "id": "c_carolingian-empire",
+   "label": "Carolingian Empire",
+   "start": -427334,
+   "end": -394827,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "medieval",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Carolingian%20Empire"
+  },
+  {
+   "id": "c_charlemagne-crowned-emperor",
+   "label": "Charlemagne crowned emperor",
+   "start": -426975,
+   "end": -426975,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "medieval",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Charlemagne%20crowned%20emperor"
+  },
+  {
+   "id": "c_song-dynasty",
+   "label": "Song dynasty",
+   "start": -368895,
+   "end": -252018,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "medieval",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Song%20dynasty"
+  },
+  {
+   "id": "c_norse-settlement-of-greenland",
+   "label": "Norse settlement of Greenland",
+   "start": -359763,
+   "end": -189562,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.45,
+   "topics": [
+    "medieval",
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Norse%20settlement%20of%20Greenland"
+  },
+  {
+   "id": "c_high-middle-ages",
+   "label": "High Middle Ages",
+   "start": -354285,
+   "end": -262610,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "medieval",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=High%20Middle%20Ages"
+  },
+  {
+   "id": "c_leif-erikson-reaches-north-america",
+   "label": "Leif Erikson reaches North America",
+   "start": -354285,
+   "end": -353921,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "medieval",
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Leif%20Erikson%20reaches%20North%20America"
+  },
+  {
+   "id": "c_great-schism",
+   "label": "Great Schism",
+   "start": -334562,
+   "end": -334198,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "religion",
+    "medieval"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Great%20Schism"
+  },
+  {
+   "id": "c_norman-conquest-of-england",
+   "label": "Norman conquest of England",
+   "start": -330179,
+   "end": -329815,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "medieval",
+    "europe",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Norman%20conquest%20of%20England"
+  },
+  {
+   "id": "c_the-crusades",
+   "label": "The Crusades",
+   "start": -319587,
+   "end": -247635,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "medieval",
+    "war",
+    "religion"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=The%20Crusades"
+  },
+  {
+   "id": "c_angkor-wat-built",
+   "label": "Angkor Wat built",
+   "start": -313013,
+   "end": -299135,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "medieval",
+    "asia",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Angkor%20Wat%20built"
+  },
+  {
+   "id": "c_mongol-empire",
+   "label": "Mongol Empire",
+   "start": -279045,
+   "end": -219511,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "medieval",
+    "asia",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Mongol%20Empire"
+  },
+  {
+   "id": "c_magna-carta",
+   "label": "Magna Carta",
+   "start": -275593,
+   "end": -275593,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "medieval",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Magna%20Carta"
+  },
+  {
+   "id": "c_mali-empire",
+   "label": "Mali Empire",
+   "start": -268453,
+   "end": -109208,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "medieval",
+    "africa"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Mali%20Empire"
+  },
+  {
+   "id": "c_late-middle-ages",
+   "label": "Late Middle Ages",
+   "start": -262974,
+   "end": -171300,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "medieval",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Late%20Middle%20Ages"
+  },
+  {
+   "id": "c_marco-polo-travels-to-asia",
+   "label": "Marco Polo travels to Asia",
+   "start": -255304,
+   "end": -246174,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "medieval",
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Marco%20Polo%20travels%20to%20Asia"
+  },
+  {
+   "id": "c_ottoman-empire",
+   "label": "Ottoman Empire",
+   "start": -245077,
+   "end": -17168,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "politics",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Ottoman%20Empire"
+  },
+  {
+   "id": "c_renaissance",
+   "label": "Renaissance",
+   "start": -244712,
+   "end": -134775,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "early-modern",
+    "art",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Renaissance"
+  },
+  {
+   "id": "c_hundred-years-war",
+   "label": "Hundred Years' War",
+   "start": -231198,
+   "end": -188466,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "medieval",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Hundred%20Years'%20War"
+  },
+  {
+   "id": "c_black-death",
+   "label": "Black Death",
+   "start": -227911,
+   "end": -224990,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "medieval",
+    "medicine",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Black%20Death"
+  },
+  {
+   "id": "c_ming-dynasty",
+   "label": "Ming dynasty",
+   "start": -219876,
+   "end": -118704,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "medieval",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Ming%20dynasty"
+  },
+  {
+   "id": "c_age-of-discovery",
+   "label": "Age of Discovery",
+   "start": -201614,
+   "end": -127470,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "early-modern",
+    "exploration",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Age%20of%20Discovery"
+  },
+  {
+   "id": "c_aztec-empire",
+   "label": "Aztec Empire",
+   "start": -197962,
+   "end": -163630,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "medieval",
+    "americas"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Aztec%20Empire"
+  },
+  {
+   "id": "c_inca-empire",
+   "label": "Inca Empire",
+   "start": -194309,
+   "end": -159247,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "medieval",
+    "americas"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Inca%20Empire"
+  },
+  {
+   "id": "c_gutenberg-printing-press",
+   "label": "Gutenberg printing press",
+   "start": -193579,
+   "end": -193214,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "technology",
+    "early-modern"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Gutenberg%20printing%20press"
+  },
+  {
+   "id": "c_life-of-leonardo-da-vinci",
+   "label": "Life of Leonardo da Vinci",
+   "start": -189091,
+   "end": -164604,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "art",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Leonardo%20da%20Vinci"
+  },
+  {
+   "id": "c_fall-of-constantinople",
+   "label": "Fall of Constantinople",
+   "start": -188682,
+   "end": -188682,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "medieval",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Fall%20of%20Constantinople"
+  },
+  {
+   "id": "c_life-of-michelangelo",
+   "label": "Life of Michelangelo",
+   "start": -180731,
+   "end": -148241,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Michelangelo"
+  },
+  {
+   "id": "c_columbus-reaches-the-americas",
+   "label": "Columbus reaches the Americas",
+   "start": -174301,
+   "end": -174301,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "exploration",
+    "americas"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Columbus%20reaches%20the%20Americas"
+  },
+  {
+   "id": "c_mona-lisa-painted",
+   "label": "Mona Lisa painted",
+   "start": -170569,
+   "end": -164361,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Mona%20Lisa%20painted"
+  },
+  {
+   "id": "c_protestant-reformation",
+   "label": "Protestant Reformation",
+   "start": -165455,
+   "end": -117243,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "religion",
+    "early-modern"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Protestant%20Reformation"
+  },
+  {
+   "id": "c_magellan-expedition-circumnavigates-the-globe",
+   "label": "Magellan expedition circumnavigates the globe",
+   "start": -164725,
+   "end": -163265,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Magellan%20expedition%20circumnavigates%20the%20globe"
+  },
+  {
+   "id": "c_spanish-conquest-of-the-aztec-empire",
+   "label": "Spanish conquest of the Aztec Empire",
+   "start": -164725,
+   "end": -163630,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "war",
+    "americas"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Spanish%20conquest%20of%20the%20Aztec%20Empire"
+  },
+  {
+   "id": "c_mughal-empire",
+   "label": "Mughal Empire",
+   "start": -162168,
+   "end": -40908,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "asia",
+    "politics",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Mughal%20Empire"
+  },
+  {
+   "id": "c_copernicus-publishes-heliocentrism",
+   "label": "Copernicus publishes heliocentrism",
+   "start": -155959,
+   "end": -155595,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Copernicus%20publishes%20heliocentrism"
+  },
+  {
+   "id": "c_scientific-revolution",
+   "label": "Scientific Revolution",
+   "start": -155959,
+   "end": -102999,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "science",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Scientific%20Revolution"
+  },
+  {
+   "id": "c_elizabethan-era",
+   "label": "Elizabethan era",
+   "start": -150480,
+   "end": -133680,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "early-modern",
+    "europe",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Elizabethan%20era"
+  },
+  {
+   "id": "c_life-of-william-shakespeare",
+   "label": "Life of William Shakespeare",
+   "start": -148173,
+   "end": -129183,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20William%20Shakespeare"
+  },
+  {
+   "id": "c_spanish-armada-defeated",
+   "label": "Spanish Armada defeated",
+   "start": -139523,
+   "end": -139158,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "war",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Spanish%20Armada%20defeated"
+  },
+  {
+   "id": "c_galileo-observes-the-moons-of-jupiter",
+   "label": "Galileo observes the moons of Jupiter",
+   "start": -131481,
+   "end": -131481,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "science",
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Galileo%20observes%20the%20moons%20of%20Jupiter"
+  },
+  {
+   "id": "c_thirty-years-war",
+   "label": "Thirty Years' War",
+   "start": -128565,
+   "end": -117243,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "war",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Thirty%20Years'%20War"
+  },
+  {
+   "id": "c_mayflower-lands-at-plymouth",
+   "label": "Mayflower lands at Plymouth",
+   "start": -127520,
+   "end": -127520,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "americas",
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Mayflower%20lands%20at%20Plymouth"
+  },
+  {
+   "id": "c_taj-mahal-built",
+   "label": "Taj Mahal built",
+   "start": -123452,
+   "end": -115417,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "art",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Taj%20Mahal%20built"
+  },
+  {
+   "id": "c_the-enlightenment",
+   "label": "The Enlightenment",
+   "start": -104093,
+   "end": -56249,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "early-modern",
+    "science",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=The%20Enlightenment"
+  },
+  {
+   "id": "c_life-of-johann-sebastian-bach",
+   "label": "Life of Johann Sebastian Bach",
+   "start": -104004,
+   "end": -80145,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "music"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Johann%20Sebastian%20Bach"
+  },
+  {
+   "id": "c_newton-publishes-the-principia",
+   "label": "Newton publishes the Principia",
+   "start": -103178,
+   "end": -103178,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.82,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Newton%20publishes%20the%20Principia"
+  },
+  {
+   "id": "c_seven-years-war",
+   "label": "Seven Years War",
+   "start": -78162,
+   "end": -75241,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Seven%20Years%20War"
+  },
+  {
+   "id": "c_life-of-wolfgang-amadeus-mozart",
+   "label": "Life of Wolfgang Amadeus Mozart",
+   "start": -78136,
+   "end": -65040,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "music"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Wolfgang%20Amadeus%20Mozart"
+  },
+  {
+   "id": "c_industrial-revolution",
+   "label": "Industrial Revolution",
+   "start": -76701,
+   "end": -47117,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.88,
+   "topics": [
+    "technology",
+    "economics",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Industrial%20Revolution"
+  },
+  {
+   "id": "c_life-of-ludwig-van-beethoven",
+   "label": "Life of Ludwig van Beethoven",
+   "start": -72698,
+   "end": -52146,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "music"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Life%20of%20Ludwig%20van%20Beethoven"
+  },
+  {
+   "id": "c_american-revolution",
+   "label": "American Revolution",
+   "start": -71114,
+   "end": -68055,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "us",
+    "war",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=American%20Revolution"
+  },
+  {
+   "id": "c_watt-steam-engine",
+   "label": "Watt steam engine",
+   "start": -70857,
+   "end": -70492,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Watt%20steam%20engine"
+  },
+  {
+   "id": "c_us-declaration-of-independence",
+   "label": "US Declaration of Independence",
+   "start": -70672,
+   "end": -70672,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=US%20Declaration%20of%20Independence"
+  },
+  {
+   "id": "c_us-constitution-ratified",
+   "label": "US Constitution ratified",
+   "start": -66302,
+   "end": -66302,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=US%20Constitution%20ratified"
+  },
+  {
+   "id": "c_french-revolution",
+   "label": "French Revolution",
+   "start": -65914,
+   "end": -62144,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "europe",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=French%20Revolution"
+  },
+  {
+   "id": "c_haitian-revolution",
+   "label": "Haitian Revolution",
+   "start": -65378,
+   "end": -60266,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "americas",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Haitian%20Revolution"
+  },
+  {
+   "id": "c_napoleonic-wars",
+   "label": "Napoleonic Wars",
+   "start": -60859,
+   "end": -56290,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "war",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Napoleonic%20Wars"
+  },
+  {
+   "id": "c_lewis-and-clark-expedition",
+   "label": "Lewis and Clark expedition",
+   "start": -60497,
+   "end": -59635,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "us",
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Lewis%20and%20Clark%20expedition"
+  },
+  {
+   "id": "c_eruption-of-mount-tambora",
+   "label": "Eruption of Mount Tambora",
+   "start": -56514,
+   "end": -56514,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Eruption%20of%20Mount%20Tambora"
+  },
+  {
+   "id": "c_battle-of-waterloo",
+   "label": "Battle of Waterloo",
+   "start": -56445,
+   "end": -56445,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "war",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Battle%20of%20Waterloo"
+  },
+  {
+   "id": "c_first-photograph",
+   "label": "First photograph",
+   "start": -52595,
+   "end": -52231,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "technology",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20photograph"
+  },
+  {
+   "id": "c_first-passenger-railway",
+   "label": "First passenger railway",
+   "start": -50877,
+   "end": -50877,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20passenger%20railway"
+  },
+  {
+   "id": "c_voyage-of-the-beagle",
+   "label": "Voyage of the Beagle",
+   "start": -50409,
+   "end": -48668,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "science",
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Voyage%20of%20the%20Beagle"
+  },
+  {
+   "id": "c_victorian-era",
+   "label": "Victorian era",
+   "start": -48407,
+   "end": -25181,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "modern",
+    "europe",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Victorian%20era"
+  },
+  {
+   "id": "c_telegraph-demonstrated",
+   "label": "Telegraph demonstrated",
+   "start": -45877,
+   "end": -45877,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Telegraph%20demonstrated"
+  },
+  {
+   "id": "c_revolutions-of-1848",
+   "label": "Revolutions of 1848",
+   "start": -44560,
+   "end": -43830,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "europe",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Revolutions%20of%201848"
+  },
+  {
+   "id": "c_california-gold-rush",
+   "label": "California Gold Rush",
+   "start": -44537,
+   "end": -41639,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "us",
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=California%20Gold%20Rush"
+  },
+  {
+   "id": "c_darwin-publishes-on-the-origin-of-species",
+   "label": "Darwin publishes On the Origin of Species",
+   "start": -40215,
+   "end": -40215,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Darwin%20publishes%20On%20the%20Origin%20of%20Species"
+  },
+  {
+   "id": "c_american-civil-war",
+   "label": "American Civil War",
+   "start": -39710,
+   "end": -38252,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.82,
+   "topics": [
+    "us",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=American%20Civil%20War"
+  },
+  {
+   "id": "c_emancipation-proclamation",
+   "label": "Emancipation Proclamation",
+   "start": -39081,
+   "end": -39081,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Emancipation%20Proclamation"
+  },
+  {
+   "id": "c_mendel-publishes-his-laws-of-inheritance",
+   "label": "Mendel publishes his laws of inheritance",
+   "start": -37985,
+   "end": -37621,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Mendel%20publishes%20his%20laws%20of%20inheritance"
+  },
+  {
+   "id": "c_meiji-restoration",
+   "label": "Meiji Restoration",
+   "start": -37253,
+   "end": -37253,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "asia",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Meiji%20Restoration"
+  },
+  {
+   "id": "c_transcontinental-railroad-completed",
+   "label": "Transcontinental railroad completed",
+   "start": -36760,
+   "end": -36760,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "us",
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Transcontinental%20railroad%20completed"
+  },
+  {
+   "id": "c_suez-canal-opens",
+   "label": "Suez Canal opens",
+   "start": -36569,
+   "end": -36569,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "technology",
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Suez%20Canal%20opens"
+  },
+  {
+   "id": "c_telephone-patented",
+   "label": "Telephone patented",
+   "start": -34267,
+   "end": -34267,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Telephone%20patented"
+  },
+  {
+   "id": "c_practical-electric-light-bulb",
+   "label": "Practical electric light bulb",
+   "start": -32943,
+   "end": -32943,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Practical%20electric%20light%20bulb"
+  },
+  {
+   "id": "c_scramble-for-africa",
+   "label": "Scramble for Africa",
+   "start": -32506,
+   "end": -20090,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "africa",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Scramble%20for%20Africa"
+  },
+  {
+   "id": "c_eruption-of-krakatoa",
+   "label": "Eruption of Krakatoa",
+   "start": -31539,
+   "end": -31538,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Eruption%20of%20Krakatoa"
+  },
+  {
+   "id": "c_statue-of-liberty-dedicated",
+   "label": "Statue of Liberty dedicated",
+   "start": -30380,
+   "end": -30380,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "us",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Statue%20of%20Liberty%20dedicated"
+  },
+  {
+   "id": "c_eiffel-tower-completed",
+   "label": "Eiffel Tower completed",
+   "start": -29495,
+   "end": -29495,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "europe",
+    "art"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Eiffel%20Tower%20completed"
+  },
+  {
+   "id": "c_discovery-of-radioactivity",
+   "label": "Discovery of radioactivity",
+   "start": -27028,
+   "end": -25933,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Discovery%20of%20radioactivity"
+  },
+  {
+   "id": "c_first-modern-olympic-games",
+   "label": "First modern Olympic Games",
+   "start": -26932,
+   "end": -26923,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "sports"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20modern%20Olympic%20Games"
+  },
+  {
+   "id": "c_20th-century",
+   "label": "20th century",
+   "start": -25202,
+   "end": 11322,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "modern",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=20th%20century"
+  },
+  {
+   "id": "c_marconi-transmits-across-the-atlantic",
+   "label": "Marconi transmits across the Atlantic",
+   "start": -24857,
+   "end": -24857,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Marconi%20transmits%20across%20the%20Atlantic"
+  },
+  {
+   "id": "c_wright-brothers-first-flight",
+   "label": "Wright brothers first flight",
+   "start": -24122,
+   "end": -24122,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Wright%20brothers%20first%20flight"
+  },
+  {
+   "id": "c_einstein-publishes-special-relativity",
+   "label": "Einstein publishes special relativity",
+   "start": -23473,
+   "end": -23473,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Einstein%20publishes%20special%20relativity"
+  },
+  {
+   "id": "c_san-francisco-earthquake",
+   "label": "San Francisco earthquake",
+   "start": -23269,
+   "end": -23269,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "us",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=San%20Francisco%20earthquake"
+  },
+  {
+   "id": "c_ford-model-t",
+   "label": "Ford Model T",
+   "start": -22372,
+   "end": -15561,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "technology",
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Ford%20Model%20T"
+  },
+  {
+   "id": "c_amundsen-reaches-the-south-pole",
+   "label": "Amundsen reaches the South Pole",
+   "start": -21203,
+   "end": -21203,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Amundsen%20reaches%20the%20South%20Pole"
+  },
+  {
+   "id": "c_sinking-of-the-titanic",
+   "label": "Sinking of the Titanic",
+   "start": -21080,
+   "end": -21080,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Sinking%20of%20the%20Titanic"
+  },
+  {
+   "id": "c_world-war-i",
+   "label": "World War I",
+   "start": -20246,
+   "end": -18679,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.92,
+   "topics": [
+    "war",
+    "modern"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=World%20War%20I"
+  },
+  {
+   "id": "c_russian-revolution",
+   "label": "Russian Revolution",
+   "start": -19305,
+   "end": -19048,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "politics",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Russian%20Revolution"
+  },
+  {
+   "id": "c_spanish-flu-pandemic",
+   "label": "Spanish flu pandemic",
+   "start": -18962,
+   "end": -18143,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "medicine",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Spanish%20flu%20pandemic"
+  },
+  {
+   "id": "c_treaty-of-versailles",
+   "label": "Treaty of Versailles",
+   "start": -18450,
+   "end": -18450,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "politics",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Treaty%20of%20Versailles"
+  },
+  {
+   "id": "c_women-win-the-vote-in-the-us",
+   "label": "Women win the vote in the US",
+   "start": -18033,
+   "end": -18033,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Women%20win%20the%20vote%20in%20the%20US"
+  },
+  {
+   "id": "c_soviet-union",
+   "label": "Soviet Union",
+   "start": -17169,
+   "end": 8029,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "politics",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Soviet%20Union"
+  },
+  {
+   "id": "c_discovery-of-penicillin",
+   "label": "Discovery of penicillin",
+   "start": -15070,
+   "end": -15070,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "medicine",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Discovery%20of%20penicillin"
+  },
+  {
+   "id": "c_hubble-confirms-the-expanding-universe",
+   "label": "Hubble confirms the expanding universe",
+   "start": -14975,
+   "end": -14611,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "science",
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Hubble%20confirms%20the%20expanding%20universe"
+  },
+  {
+   "id": "c_wall-street-crash",
+   "label": "Wall Street Crash",
+   "start": -14679,
+   "end": -14674,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "economics",
+    "us"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Wall%20Street%20Crash"
+  },
+  {
+   "id": "c_great-depression",
+   "label": "Great Depression",
+   "start": -14679,
+   "end": -10959,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "economics",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Great%20Depression"
+  },
+  {
+   "id": "c_nazi-germany",
+   "label": "Nazi Germany",
+   "start": -13485,
+   "end": -9004,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "politics",
+    "europe",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Nazi%20Germany"
+  },
+  {
+   "id": "c_new-deal",
+   "label": "New Deal",
+   "start": -13452,
+   "end": -10959,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=New%20Deal"
+  },
+  {
+   "id": "c_spanish-civil-war",
+   "label": "Spanish Civil War",
+   "start": -12221,
+   "end": -11233,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "war",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Spanish%20Civil%20War"
+  },
+  {
+   "id": "c_world-war-ii",
+   "label": "World War II",
+   "start": -11080,
+   "end": -8887,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.98,
+   "topics": [
+    "war",
+    "modern"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=World%20War%20II"
+  },
+  {
+   "id": "c_the-holocaust",
+   "label": "The Holocaust",
+   "start": -10592,
+   "end": -8767,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "war",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=The%20Holocaust"
+  },
+  {
+   "id": "c_attack-on-pearl-harbor",
+   "label": "Attack on Pearl Harbor",
+   "start": -10252,
+   "end": -10252,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "us",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Attack%20on%20Pearl%20Harbor"
+  },
+  {
+   "id": "c_manhattan-project",
+   "label": "Manhattan Project",
+   "start": -10003,
+   "end": -8540,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "science",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Manhattan%20Project"
+  },
+  {
+   "id": "c_d-day-landings",
+   "label": "D-Day landings",
+   "start": -9340,
+   "end": -9340,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "war",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=D-Day%20landings"
+  },
+  {
+   "id": "c_atomic-bombings-of-hiroshima-and-nagasaki",
+   "label": "Atomic bombings of Hiroshima and Nagasaki",
+   "start": -8914,
+   "end": -8911,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "war",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Atomic%20bombings%20of%20Hiroshima%20and%20Nagasaki"
+  },
+  {
+   "id": "c_united-nations-founded",
+   "label": "United Nations founded",
+   "start": -8835,
+   "end": -8835,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=United%20Nations%20founded"
+  },
+  {
+   "id": "c_eniac-the-first-general-purpose-computer",
+   "label": "ENIAC, the first general-purpose computer",
+   "start": -8722,
+   "end": -8722,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=ENIAC%2C%20the%20first%20general-purpose%20computer"
+  },
+  {
+   "id": "c_cold-war",
+   "label": "Cold War",
+   "start": -8331,
+   "end": 8029,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.92,
+   "topics": [
+    "politics",
+    "war",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cold%20War"
+  },
+  {
+   "id": "c_indian-independence-and-partition",
+   "label": "Indian independence and partition",
+   "start": -8175,
+   "end": -8175,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "asia",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Indian%20independence%20and%20partition"
+  },
+  {
+   "id": "c_invention-of-the-transistor",
+   "label": "Invention of the transistor",
+   "start": -8045,
+   "end": -8045,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "technology",
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Invention%20of%20the%20transistor"
+  },
+  {
+   "id": "c_marshall-plan",
+   "label": "Marshall Plan",
+   "start": -7943,
+   "end": -6210,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "economics",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Marshall%20Plan"
+  },
+  {
+   "id": "c_people-s-republic-of-china-founded",
+   "label": "People's Republic of China founded",
+   "start": -7397,
+   "end": -7397,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "asia",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=People's%20Republic%20of%20China%20founded"
+  },
+  {
+   "id": "c_korean-war",
+   "label": "Korean War",
+   "start": -7130,
+   "end": -6002,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "war",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Korean%20War"
+  },
+  {
+   "id": "c_structure-of-dna-discovered",
+   "label": "Structure of DNA discovered",
+   "start": -6095,
+   "end": -6095,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "science",
+    "medicine"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Structure%20of%20DNA%20discovered"
+  },
+  {
+   "id": "c_everest-first-summited",
+   "label": "Everest first summited",
+   "start": -6061,
+   "end": -6061,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "exploration"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Everest%20first%20summited"
+  },
+  {
+   "id": "c_us-civil-rights-movement",
+   "label": "US Civil Rights Movement",
+   "start": -5708,
+   "end": -637,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "us",
+    "politics",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=US%20Civil%20Rights%20Movement"
+  },
+  {
+   "id": "c_polio-vaccine",
+   "label": "Polio vaccine",
+   "start": -5378,
+   "end": -5378,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "medicine"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Polio%20vaccine"
+  },
+  {
+   "id": "c_vietnam-war",
+   "label": "Vietnam War",
+   "start": -5175,
+   "end": 1945,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "war",
+    "asia",
+    "us"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Vietnam%20War"
+  },
+  {
+   "id": "c_sputnik-1",
+   "label": "Sputnik 1",
+   "start": -4472,
+   "end": -4472,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Sputnik%201"
+  },
+  {
+   "id": "c_space-race",
+   "label": "Space Race",
+   "start": -4472,
+   "end": 2030,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "space",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Space%20Race"
+  },
+  {
+   "id": "c_integrated-circuit-invented",
+   "label": "Integrated circuit invented",
+   "start": -4129,
+   "end": -4129,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "computing",
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Integrated%20circuit%20invented"
+  },
+  {
+   "id": "c_cuban-revolution",
+   "label": "Cuban Revolution",
+   "start": -4018,
+   "end": -4018,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "americas",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cuban%20Revolution"
+  },
+  {
+   "id": "c_the-beatles",
+   "label": "The Beatles",
+   "start": -3424,
+   "end": 99,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.72,
+   "topics": [
+    "music"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=The%20Beatles"
+  },
+  {
+   "id": "c_yuri-gagarin-first-human-in-space",
+   "label": "Yuri Gagarin, first human in space",
+   "start": -3186,
+   "end": -3186,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Yuri%20Gagarin%2C%20first%20human%20in%20space"
+  },
+  {
+   "id": "c_berlin-wall",
+   "label": "Berlin Wall",
+   "start": -3063,
+   "end": 7252,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "politics",
+    "europe",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Berlin%20Wall"
+  },
+  {
+   "id": "c_silent-spring-published",
+   "label": "Silent Spring published",
+   "start": -2653,
+   "end": -2653,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Silent%20Spring%20published"
+  },
+  {
+   "id": "c_cuban-missile-crisis",
+   "label": "Cuban Missile Crisis",
+   "start": -2634,
+   "end": -2622,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "politics",
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cuban%20Missile%20Crisis"
+  },
+  {
+   "id": "c_i-have-a-dream-speech",
+   "label": "\"I Have a Dream\" speech",
+   "start": -2318,
+   "end": -2318,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=%22I%20Have%20a%20Dream%22%20speech"
+  },
+  {
+   "id": "c_assassination-of-john-f-kennedy",
+   "label": "Assassination of John F. Kennedy",
+   "start": -2232,
+   "end": -2232,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Assassination%20of%20John%20F.%20Kennedy"
+  },
+  {
+   "id": "c_civil-rights-act-of-1964",
+   "label": "Civil Rights Act of 1964",
+   "start": -2009,
+   "end": -2009,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Civil%20Rights%20Act%20of%201964"
+  },
+  {
+   "id": "c_cultural-revolution",
+   "label": "Cultural Revolution",
+   "start": -1326,
+   "end": 2470,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "asia",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Cultural%20Revolution"
+  },
+  {
+   "id": "c_stonewall-uprising",
+   "label": "Stonewall uprising",
+   "start": -187,
+   "end": -182,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Stonewall%20uprising"
+  },
+  {
+   "id": "c_apollo-11-moon-landing",
+   "label": "Apollo 11 Moon landing",
+   "start": -169,
+   "end": -161,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.9,
+   "topics": [
+    "space",
+    "us"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Apollo%2011%20Moon%20landing"
+  },
+  {
+   "id": "c_woodstock",
+   "label": "Woodstock",
+   "start": -139,
+   "end": -136,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "music",
+    "us"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Woodstock"
+  },
+  {
+   "id": "c_arpanet-goes-live",
+   "label": "ARPANET goes live",
+   "start": -64,
+   "end": -64,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=ARPANET%20goes%20live"
+  },
+  {
+   "id": "c_first-earth-day",
+   "label": "First Earth Day",
+   "start": 111,
+   "end": 111,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "politics",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20Earth%20Day"
+  },
+  {
+   "id": "c_email-invented",
+   "label": "Email invented",
+   "start": 365,
+   "end": 729,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Email%20invented"
+  },
+  {
+   "id": "c_microprocessor-released-intel-4004",
+   "label": "Microprocessor released (Intel 4004)",
+   "start": 683,
+   "end": 683,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Microprocessor%20released%20(Intel%204004)"
+  },
+  {
+   "id": "c_watergate-scandal",
+   "label": "Watergate scandal",
+   "start": 898,
+   "end": 1681,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Watergate%20scandal"
+  },
+  {
+   "id": "c_oil-crisis",
+   "label": "Oil crisis",
+   "start": 1385,
+   "end": 1537,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Oil%20crisis"
+  },
+  {
+   "id": "c_apple-founded",
+   "label": "Apple founded",
+   "start": 2282,
+   "end": 2282,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "computing",
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Apple%20founded"
+  },
+  {
+   "id": "c_voyager-missions-launched",
+   "label": "Voyager missions launched",
+   "start": 2788,
+   "end": 2804,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Voyager%20missions%20launched"
+  },
+  {
+   "id": "c_smallpox-eradicated",
+   "label": "Smallpox eradicated",
+   "start": 3780,
+   "end": 3780,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "medicine"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Smallpox%20eradicated"
+  },
+  {
+   "id": "c_aids-epidemic-recognised",
+   "label": "AIDS epidemic recognised",
+   "start": 4173,
+   "end": 4173,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "medicine"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=AIDS%20epidemic%20recognised"
+  },
+  {
+   "id": "c_ibm-pc-released",
+   "label": "IBM PC released",
+   "start": 4241,
+   "end": 4241,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=IBM%20PC%20released"
+  },
+  {
+   "id": "c_challenger-disaster",
+   "label": "Challenger disaster",
+   "start": 5871,
+   "end": 5871,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "space",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Challenger%20disaster"
+  },
+  {
+   "id": "c_chernobyl-disaster",
+   "label": "Chernobyl disaster",
+   "start": 5959,
+   "end": 5959,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "disaster",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Chernobyl%20disaster"
+  },
+  {
+   "id": "c_montreal-protocol",
+   "label": "Montreal Protocol",
+   "start": 6467,
+   "end": 6467,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "politics",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Montreal%20Protocol"
+  },
+  {
+   "id": "c_world-wide-web-invented",
+   "label": "World Wide Web invented",
+   "start": 7010,
+   "end": 7010,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=World%20Wide%20Web%20invented"
+  },
+  {
+   "id": "c_tiananmen-square-protests",
+   "label": "Tiananmen Square protests",
+   "start": 7044,
+   "end": 7094,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "asia",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Tiananmen%20Square%20protests"
+  },
+  {
+   "id": "c_fall-of-the-berlin-wall",
+   "label": "Fall of the Berlin Wall",
+   "start": 7252,
+   "end": 7252,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "europe",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Fall%20of%20the%20Berlin%20Wall"
+  },
+  {
+   "id": "c_hubble-space-telescope-launched",
+   "label": "Hubble Space Telescope launched",
+   "start": 7418,
+   "end": 7418,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Hubble%20Space%20Telescope%20launched"
+  },
+  {
+   "id": "c_gulf-war",
+   "label": "Gulf War",
+   "start": 7518,
+   "end": 7728,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "war"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Gulf%20War"
+  },
+  {
+   "id": "c_dissolution-of-the-soviet-union",
+   "label": "Dissolution of the Soviet Union",
+   "start": 8029,
+   "end": 8029,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.82,
+   "topics": [
+    "politics",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Dissolution%20of%20the%20Soviet%20Union"
+  },
+  {
+   "id": "c_rwandan-genocide",
+   "label": "Rwandan genocide",
+   "start": 8862,
+   "end": 8961,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "africa",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Rwandan%20genocide"
+  },
+  {
+   "id": "c_end-of-apartheid-in-south-africa",
+   "label": "End of apartheid in South Africa",
+   "start": 8882,
+   "end": 8882,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "africa",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=End%20of%20apartheid%20in%20South%20Africa"
+  },
+  {
+   "id": "c_dot-com-bubble",
+   "label": "Dot-com bubble",
+   "start": 9131,
+   "end": 11026,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "economics",
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Dot-com%20bubble"
+  },
+  {
+   "id": "c_dolly-the-sheep-cloned",
+   "label": "Dolly the sheep cloned",
+   "start": 9682,
+   "end": 9682,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Dolly%20the%20sheep%20cloned"
+  },
+  {
+   "id": "c_google-founded",
+   "label": "Google founded",
+   "start": 10473,
+   "end": 10473,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "computing",
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Google%20founded"
+  },
+  {
+   "id": "c_international-space-station-construction-begins",
+   "label": "International Space Station construction begins",
+   "start": 10550,
+   "end": 10550,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=International%20Space%20Station%20construction%20begins"
+  },
+  {
+   "id": "c_euro-introduced",
+   "label": "Euro introduced",
+   "start": 10592,
+   "end": 10592,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "economics",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Euro%20introduced"
+  },
+  {
+   "id": "c_21st-century",
+   "label": "21st century",
+   "start": 11323,
+   "end": 47846,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "contemporary",
+    "era"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=21st%20century"
+  },
+  {
+   "id": "c_wikipedia-launched",
+   "label": "Wikipedia launched",
+   "start": 11337,
+   "end": 11337,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Wikipedia%20launched"
+  },
+  {
+   "id": "c_september-11-attacks",
+   "label": "September 11 attacks",
+   "start": 11576,
+   "end": 11576,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.85,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=September%2011%20attacks"
+  },
+  {
+   "id": "c_war-in-afghanistan",
+   "label": "War in Afghanistan",
+   "start": 11602,
+   "end": 18869,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "war",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=War%20in%20Afghanistan"
+  },
+  {
+   "id": "c_iraq-war",
+   "label": "Iraq War",
+   "start": 12131,
+   "end": 15326,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "war",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Iraq%20War"
+  },
+  {
+   "id": "c_human-genome-project-completed",
+   "label": "Human Genome Project completed",
+   "start": 12156,
+   "end": 12156,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "science",
+    "medicine"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Human%20Genome%20Project%20completed"
+  },
+  {
+   "id": "c_facebook-launched",
+   "label": "Facebook launched",
+   "start": 12452,
+   "end": 12452,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Facebook%20launched"
+  },
+  {
+   "id": "c_indian-ocean-tsunami",
+   "label": "Indian Ocean tsunami",
+   "start": 12778,
+   "end": 12778,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "disaster",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Indian%20Ocean%20tsunami"
+  },
+  {
+   "id": "c_youtube-launched",
+   "label": "YouTube launched",
+   "start": 12828,
+   "end": 12828,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=YouTube%20launched"
+  },
+  {
+   "id": "c_hurricane-katrina",
+   "label": "Hurricane Katrina",
+   "start": 13018,
+   "end": 13026,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "us",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Hurricane%20Katrina"
+  },
+  {
+   "id": "c_iphone-released",
+   "label": "iPhone released",
+   "start": 13693,
+   "end": 13693,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.75,
+   "topics": [
+    "technology",
+    "computing"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=iPhone%20released"
+  },
+  {
+   "id": "c_global-financial-crisis",
+   "label": "Global Financial Crisis",
+   "start": 13734,
+   "end": 14425,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.8,
+   "topics": [
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Global%20Financial%20Crisis"
+  },
+  {
+   "id": "c_bitcoin-genesis-block",
+   "label": "Bitcoin genesis block",
+   "start": 14247,
+   "end": 14247,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "computing",
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Bitcoin%20genesis%20block"
+  },
+  {
+   "id": "c_barack-obama-inaugurated",
+   "label": "Barack Obama inaugurated",
+   "start": 14264,
+   "end": 14264,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "us",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Barack%20Obama%20inaugurated"
+  },
+  {
+   "id": "c_arab-spring",
+   "label": "Arab Spring",
+   "start": 14961,
+   "end": 15705,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "politics",
+    "africa"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Arab%20Spring"
+  },
+  {
+   "id": "c_fukushima-nuclear-disaster",
+   "label": "Fukushima nuclear disaster",
+   "start": 15044,
+   "end": 15044,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "disaster",
+    "asia"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Fukushima%20nuclear%20disaster"
+  },
+  {
+   "id": "c_crispr-gene-editing-demonstrated",
+   "label": "CRISPR gene editing demonstrated",
+   "start": 15519,
+   "end": 15519,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.68,
+   "topics": [
+    "science",
+    "medicine"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=CRISPR%20gene%20editing%20demonstrated"
+  },
+  {
+   "id": "c_higgs-boson-discovered",
+   "label": "Higgs boson discovered",
+   "start": 15525,
+   "end": 15525,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Higgs%20boson%20discovered"
+  },
+  {
+   "id": "c_paris-agreement",
+   "label": "Paris Agreement",
+   "start": 16781,
+   "end": 16781,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.65,
+   "topics": [
+    "politics",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Paris%20Agreement"
+  },
+  {
+   "id": "c_gravitational-waves-detected",
+   "label": "Gravitational waves detected",
+   "start": 16842,
+   "end": 16842,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "science",
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Gravitational%20waves%20detected"
+  },
+  {
+   "id": "c_brexit-referendum",
+   "label": "Brexit referendum",
+   "start": 16975,
+   "end": 16975,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.6,
+   "topics": [
+    "europe",
+    "politics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Brexit%20referendum"
+  },
+  {
+   "id": "c_first-image-of-a-black-hole",
+   "label": "First image of a black hole",
+   "start": 17996,
+   "end": 17996,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.58,
+   "topics": [
+    "science",
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=First%20image%20of%20a%20black%20hole"
+  },
+  {
+   "id": "c_covid-19-pandemic",
+   "label": "COVID-19 pandemic",
+   "start": 18291,
+   "end": 19482,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.92,
+   "topics": [
+    "medicine",
+    "disaster"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=COVID-19%20pandemic"
+  },
+  {
+   "id": "c_mrna-vaccines-deployed",
+   "label": "mRNA vaccines deployed",
+   "start": 18604,
+   "end": 18604,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "medicine",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=mRNA%20vaccines%20deployed"
+  },
+  {
+   "id": "c_perseverance-lands-on-mars",
+   "label": "Perseverance lands on Mars",
+   "start": 18676,
+   "end": 18676,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.55,
+   "topics": [
+    "space"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Perseverance%20lands%20on%20Mars"
+  },
+  {
+   "id": "c_james-webb-space-telescope-launched",
+   "label": "James Webb Space Telescope launched",
+   "start": 18986,
+   "end": 18986,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.62,
+   "topics": [
+    "space",
+    "science"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=James%20Webb%20Space%20Telescope%20launched"
+  },
+  {
+   "id": "c_russian-invasion-of-ukraine",
+   "label": "Russian invasion of Ukraine",
+   "start": 19047,
+   "end": 20665,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.78,
+   "topics": [
+    "war",
+    "europe"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Russian%20invasion%20of%20Ukraine"
+  },
+  {
+   "id": "c_global-population-reaches-8-billion",
+   "label": "Global population reaches 8 billion",
+   "start": 19311,
+   "end": 19311,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.5,
+   "topics": [
+    "economics"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=Global%20population%20reaches%208%20billion"
+  },
+  {
+   "id": "c_chatgpt-released",
+   "label": "ChatGPT released",
+   "start": 19326,
+   "end": 19326,
+   "ongoing": false,
+   "tags": [],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "corpus",
+   "significance": 0.7,
+   "topics": [
+    "computing",
+    "technology"
+   ],
+   "entityId": null,
+   "url": "https://en.wikipedia.org/w/index.php?search=ChatGPT%20released"
+  }
+ ]
+}
