@@ -6,7 +6,7 @@
  */
 
 import { describe, expect, it } from 'vitest'
-import sample from '../samples/sample-life.timeline.json'
+import sample from '../samples/sample-dense.timeline.json'
 import { effectiveEnd, loadDoc } from './model/doc'
 import { eventsForRow } from './model/rows'
 import type { CorpusEvent, TimelineDoc } from './model/types'

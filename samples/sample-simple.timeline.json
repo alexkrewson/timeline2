@@ -1,0 +1,245 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "A simple life",
+  "created": "2026-08-01T00:00:00.000Z",
+  "modified": "2026-08-01T00:00:00.000Z"
+ },
+ "tags": [
+  {
+   "id": "t_life",
+   "label": "life",
+   "color": "#5a8460",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_school",
+   "label": "school",
+   "color": "#8878a8",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_work",
+   "label": "work",
+   "color": "#3d8c7a",
+   "parent": null,
+   "styleChannel": "fill"
+  },
+  {
+   "id": "t_friends",
+   "label": "friends",
+   "color": "#6a8ca8",
+   "parent": null,
+   "styleChannel": "fill"
+  }
+ ],
+ "events": [
+  {
+   "id": "e_001",
+   "label": "Born",
+   "start": 5977,
+   "end": 5977,
+   "ongoing": false,
+   "tags": [
+    "t_life"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_002",
+   "label": "Primary school",
+   "start": 8279,
+   "end": 10396,
+   "ongoing": false,
+   "tags": [
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_008",
+   "label": "Sam — met at school, age 10",
+   "start": 9742,
+   "end": 9742,
+   "ongoing": true,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_003",
+   "label": "Secondary school",
+   "start": 10470,
+   "end": 12587,
+   "ongoing": false,
+   "tags": [
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_004",
+   "label": "University",
+   "start": 12688,
+   "end": 14050,
+   "ongoing": false,
+   "tags": [
+    "t_school"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_009",
+   "label": "Rosa — met at university, age 20",
+   "start": 13433,
+   "end": 13433,
+   "ongoing": true,
+   "tags": [
+    "t_friends"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_005",
+   "label": "First job — junior designer",
+   "start": 14137,
+   "end": 15793,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_006",
+   "label": "Second job — studio lead",
+   "start": 15810,
+   "end": 18292,
+   "ongoing": false,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  },
+  {
+   "id": "e_007",
+   "label": "Third job — independent",
+   "start": 18309,
+   "end": 18309,
+   "ongoing": true,
+   "tags": [
+    "t_work"
+   ],
+   "note": "",
+   "startPrecision": null,
+   "endPrecision": null,
+   "source": "personal"
+  }
+ ],
+ "rows": [
+  {
+   "id": "r_00a",
+   "label": "life",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_life"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 24,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 0,
+   "visible": true
+  },
+  {
+   "id": "r_00b",
+   "label": "school",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_school"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 30,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 1,
+   "visible": true
+  },
+  {
+   "id": "r_00c",
+   "label": "work",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_work"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 30,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 2,
+   "visible": true
+  },
+  {
+   "id": "r_00d",
+   "label": "friends",
+   "source": {
+    "kind": "tag",
+    "tagIds": [
+     "t_friends"
+    ]
+   },
+   "packing": "single",
+   "maxLanes": 4,
+   "minSubBandPx": 8,
+   "height": 30,
+   "layer": "stack",
+   "pinned": false,
+   "sort": "start",
+   "order": 3,
+   "visible": true
+  }
+ ],
+ "views": []
+}

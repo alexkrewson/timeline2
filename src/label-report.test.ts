@@ -5,7 +5,7 @@
  */
 
 import { describe, it } from 'vitest'
-import sample from '../samples/sample-life.timeline.json'
+import sample from '../samples/sample-dense.timeline.json'
 import { loadDoc } from './model/doc'
 import type { CorpusEvent, TimelineDoc } from './model/types'
 import { planLabels } from './render/labels'

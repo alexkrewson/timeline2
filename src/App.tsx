@@ -268,6 +268,33 @@ function Workspace() {
     [dispatch, doc.events],
   )
 
+  const loadSample = useCallback(
+    (which: 'simple' | 'dense') => {
+      const load =
+        which === 'simple'
+          ? () => import('../samples/sample-simple.timeline.json')
+          : () => import('../samples/sample-dense.timeline.json')
+      void load()
+        .then((m) => {
+          const { doc: sampleDoc, repairs } = loadDoc(m.default as unknown as TimelineDoc)
+          // Not resetHistory: loading a sample stays undoable.
+          dispatch({ type: 'replace', doc: sampleDoc })
+          frameRange(
+            Math.min(...sampleDoc.events.map((e) => e.start)),
+            Math.max(...sampleDoc.events.map((e) => effectiveEnd(e, today))),
+            false,
+          )
+          setStatus(
+            repairs.length
+              ? `Loaded the ${which} sample with ${repairs.length} repair(s).`
+              : `Loaded the ${which} sample.`,
+          )
+        })
+        .catch(() => setStatus('Could not load that sample.'))
+    },
+    [dispatch, today],
+  )
+
   const moveRow = useCallback(
     (id: string, dir: -1 | 1) => {
       const sorted = doc.rows.slice().sort((a, b) => a.order - b.order)
@@ -390,25 +417,7 @@ function Workspace() {
         searchOpen={sideOpen}
         onZoom={(n) => animateCamera(zoomAt(getCameraState().cam, getCameraState().width / 2, n), 160)}
         onAbout={() => setAboutOpen(true)}
-        onLoadSample={() => {
-          void import('../samples/sample-life.timeline.json')
-            .then((m) => {
-              const { doc: sampleDoc, repairs } = loadDoc(m.default as unknown as TimelineDoc)
-              // Not resetHistory: loading the sample stays undoable.
-              dispatch({ type: 'replace', doc: sampleDoc })
-              frameRange(
-                Math.min(...sampleDoc.events.map((e) => e.start)),
-                Math.max(...sampleDoc.events.map((e) => effectiveEnd(e, today))),
-                false,
-              )
-              setStatus(
-                repairs.length
-                  ? `Loaded the sample with ${repairs.length} repair(s).`
-                  : 'Loaded the sample timeline.',
-              )
-            })
-            .catch(() => setStatus('Could not load the sample timeline.'))
-        }}
+        onLoadSample={loadSample}
       />
 
       <div className="app__main">

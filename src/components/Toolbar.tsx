@@ -29,7 +29,7 @@ type Props = {
   searchOpen: boolean
   onZoom: (notches: number) => void
   onAbout: () => void
-  onLoadSample: () => void
+  onLoadSample: (which: 'simple' | 'dense') => void
 }
 
 export function Toolbar(props: Props) {
@@ -137,7 +137,7 @@ function SettingsMenu({
   prefs: Prefs
   onPrefs: (p: Prefs) => void
   onAbout: () => void
-  onLoadSample: () => void
+  onLoadSample: (which: 'simple' | 'dense') => void
 }) {
   const [open, setOpen] = useState(false)
   const [section, setSection] = useState<string | null>(null)
@@ -223,12 +223,19 @@ function SettingsMenu({
           </button>
 
           <Section id="advanced" label="Advanced" open={section === 'advanced'} onToggle={toggle}>
-            <button className="btn" onClick={onLoadSample}>
+            <button className="btn" onClick={() => onLoadSample('simple')}>
               Load sample timeline
             </button>
             <p className="settings-note">
-              A fictional life — 110 events, heavy overlaps, one-day events and long
-              labels. Replaces what is open; undo brings it back.
+              A small invented life — born 1986, three schools, three jobs, two friends.
+            </p>
+            <button className="btn" onClick={() => onLoadSample('dense')}>
+              Load stress-test timeline
+            </button>
+            <p className="settings-note">
+              110 events with heavy overlaps, one-day events and long labels — for
+              checking how crowding is handled. Either replaces what is open; undo
+              brings it back.
             </p>
             <span className="label">Density</span>
             <div className="mode-toggle">
