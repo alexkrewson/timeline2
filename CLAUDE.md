@@ -24,6 +24,14 @@ node scripts/build-corpus.mjs   # after editing scripts/corpus-source.mjs
 
 ## Spec
 
-The full v1 specification lives in the repo's initial commit message and the
-README. Section numbers referenced in code comments (§3.3, §5.2, §9.3 …) point
-at that spec.
+Section numbers in code comments (§3.3, §5.2, §9.3 …) refer to the v1 technical
+specification, which was supplied in chat and is **not stored in this repo**.
+The README paraphrases its load-bearing decisions; the initial commit message
+summarises the rest. If a §-reference needs resolving, ask for the spec.
+
+## Deployment
+
+Repo is `alexkrewson/timeline2` (public), deployed to
+https://alexkrewson.github.io/timeline2/ on push to `main`. `base` in
+`vite.config.ts` must match the repo name or the deployed page is blank.
+The local directory is still named `timeline` — that mismatch is cosmetic.
