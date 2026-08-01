@@ -619,6 +619,14 @@ function StackRow(props: RowProps) {
             ⚠ {packed.laneCount} lanes
           </span>
         )}
+        {plan.dropped > 0 && (
+          <span
+            className="row__flag row__flag--quiet"
+            title={`${plan.dropped} label(s) had nowhere to go without overlapping something else. The bars are still there — zoom in, or give the row more height.`}
+          >
+            {plan.dropped} label{plan.dropped === 1 ? '' : 's'} hidden
+          </span>
+        )}
       </div>
       <div className="row__plot">
         <ChartRow {...props} plan={plan} />

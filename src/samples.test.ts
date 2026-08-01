@@ -10,10 +10,12 @@ import sample from '../samples/sample-life.timeline.json'
 import { effectiveEnd, loadDoc } from './model/doc'
 import { eventsForRow } from './model/rows'
 import type { CorpusEvent, TimelineDoc } from './model/types'
-import { planLabels } from './render/labels'
+import { LABEL_FONT_SIZE, LABEL_PAD, planLabels } from './render/labels'
 import { barExtent, layoutRow, MIN_BAR_PX } from './render/layout'
-import { todayDay } from './time/days'
+import { daysFromCivil, todayDay } from './time/days'
 import { dayToX, fitRange } from './time/scale'
+
+const D = (y: number, m = 1, d = 1) => daysFromCivil(y, m, d)
 
 const { doc, repairs } = loadDoc(sample as unknown as TimelineDoc)
 const today = todayDay()
@@ -110,6 +112,70 @@ describe('sample document', () => {
         .filter(Boolean),
     )
     expect(channels).toEqual(new Set(['fill', 'saturation', 'stripe', 'outline']))
+  })
+
+  it('never places two labels on top of each other, in any row at any zoom', () => {
+    // The dense rows at several zooms — this is the property that was broken:
+    // inline labels were placed without any collision check at all.
+    const zooms = [
+      fitRange(span.start, span.end, WIDTH),
+      fitRange(D(2005), D(2015), WIDTH),
+      fitRange(D(2016), D(2018), WIDTH),
+      fitRange(D(2022, 6), D(2022, 8), WIDTH),
+    ]
+    let checked = 0
+    for (const row of doc.rows) {
+      const layout = layoutRow(row, ctx)
+      for (const zoom of zooms) {
+        const plan = planLabels(layout, { toX: (d) => dayToX(d, zoom), width: WIDTH })
+        const boxes = plan.labels.map((l) => ({
+          x0: l.x,
+          x1: l.x + l.width,
+          y0: l.y - LABEL_FONT_SIZE,
+          y1: l.y + 3,
+          text: l.text,
+        }))
+        for (let i = 0; i < boxes.length; i++) {
+          for (let j = i + 1; j < boxes.length; j++) {
+            const a = boxes[i]
+            const b = boxes[j]
+            const overlap = a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1
+            if (overlap) {
+              throw new Error(
+                `"${a.text}" and "${b.text}" overlap in row "${row.label}" ` +
+                  `(${a.x0.toFixed(0)}..${a.x1.toFixed(0)} vs ${b.x0.toFixed(0)}..${b.x1.toFixed(0)})`,
+              )
+            }
+            checked++
+          }
+        }
+      }
+    }
+    expect(checked).toBeGreaterThan(500)
+  })
+
+  it('keeps every label inside the space the row reserves for it', () => {
+    const layout = layoutFor('friends')
+    const plan = planLabels(layout, { toX, width: WIDTH })
+    for (const l of plan.labels) {
+      expect(l.y - LABEL_FONT_SIZE).toBeGreaterThanOrEqual(-LABEL_PAD)
+      expect(l.y + 3).toBeLessThanOrEqual(layout.height + LABEL_PAD)
+      expect(l.x).toBeGreaterThanOrEqual(0)
+      expect(l.x + l.width).toBeLessThanOrEqual(WIDTH + 1)
+    }
+  })
+
+  it('reports labels it had to hide rather than dropping them silently', () => {
+    // 36 friendships in a 26px row at 38-year zoom genuinely cannot all be
+    // labelled; the row says so instead of looking empty.
+    const plan = planLabels(layoutFor('friends'), { toX, width: WIDTH })
+    expect(plan.dropped).toBeGreaterThan(0)
+    expect(plan.labels.length + plan.dropped).toBe(
+      layoutFor('friends').packed.placed.filter((p) => {
+        const e = barExtent(p.segments[0].start, p.segments.at(-1)!.endEx, toX)
+        return e.x1 >= 0 && e.x0 <= WIDTH
+      }).length,
+    )
   })
 
   it('forces labels into overflow lanes with leader lines', () => {

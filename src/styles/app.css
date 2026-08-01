@@ -681,6 +681,10 @@ select.field {
   white-space: nowrap;
 }
 
+.row__flag--quiet {
+  color: var(--text-tertiary);
+}
+
 .row__plot {
   position: relative;
   overflow: hidden;
