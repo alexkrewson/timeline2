@@ -316,6 +316,14 @@ export function SidePanel(props: Props) {
                     />
                     <span>One lane per overlap</span>
                   </label>
+                  <label className="check-row check-row--tight">
+                    <input
+                      type="checkbox"
+                      checked={row.varyColors}
+                      onChange={(e) => props.onUpdateRow({ ...row, varyColors: e.target.checked })}
+                    />
+                    <span>Distinct colour per event</span>
+                  </label>
                   <label className="num-row">
                     <span className="label">Height</span>
                     <input

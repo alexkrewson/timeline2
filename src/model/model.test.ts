@@ -17,7 +17,9 @@ import {
 import { parseFlexibleDate } from './parseDate'
 import { durationFactor, recommend } from './recommend'
 import { eventsForRow, sortRows } from './rows'
-import type { CorpusEvent, TimelineDoc } from './types'
+import { SCHEMA_VERSION, type CorpusEvent, type TimelineDoc } from './types'
+import { layoutRow } from '../render/layout'
+import { styleFor } from '../render/style'
 
 describe('event invariants', () => {
   it('swaps a reversed range rather than rejecting it', () => {
@@ -217,11 +219,130 @@ describe('duration-aware recommendation', () => {
   })
 })
 
+describe('colour resolution', () => {
+  const tags = [
+    makeTag('friends', '#6a8ca8'),
+    makeTag('dormant', '#8a7d68', { styleChannel: 'saturation' }),
+  ]
+  const byId = new Map(tags.map((t) => [t.id, t]))
+
+  it('falls back to the tag colour', () => {
+    const e = makeEvent({ tags: [tags[0].id] })
+    expect(styleFor(e, byId).fill).toBe('#6a8ca8')
+  })
+
+  it('uses the row variation when the row asks for it', () => {
+    const e = makeEvent({ tags: [tags[0].id] })
+    const a = styleFor(e, byId, 0).fill
+    const b = styleFor(e, byId, 1).fill
+    expect(a).not.toBe(b)
+    expect(a).not.toBe('#6a8ca8')
+  })
+
+  it('lets a per-event override beat both the tag and the variation', () => {
+    const e = makeEvent({ tags: [tags[0].id], color: '#ff8800' })
+    expect(styleFor(e, byId).fill).toBe('#ff8800')
+    expect(styleFor(e, byId, 3).fill).toBe('#ff8800')
+  })
+
+  it('leaves the modifier channels alone whatever the fill is', () => {
+    const e = makeEvent({ tags: [tags[0].id, tags[1].id], color: '#ff8800' })
+    const s = styleFor(e, byId, 2)
+    expect(s.fill).toBe('#ff8800')
+    expect(s.desaturated).toBe(true)
+    expect(s.modifiers).toContain('dormant')
+  })
+
+  it('gives every event in a varying row a different slot', () => {
+    const row = makeRow('friends', {
+      source: { kind: 'tag', tagIds: [tags[0].id] },
+      varyColors: true,
+    })
+    const doc = emptyDoc()
+    doc.tags = tags
+    doc.events = ['a', 'b', 'c'].map((l, i) =>
+      makeEvent({ label: l, start: i * 100, end: i * 100 + 50, tags: [tags[0].id] }),
+    )
+    const layout = layoutRow(row, {
+      doc,
+      corpus: [],
+      viewStart: -1000,
+      viewEnd: 1000,
+      today: 0,
+      filter: null,
+    })
+    const slots = doc.events.map((e) => layout.colorVariant(e.id))
+    expect(new Set(slots).size).toBe(3)
+    expect(slots).not.toContain(null)
+  })
+
+  it('returns no variation for a row that did not ask for it', () => {
+    const row = makeRow('friends', { source: { kind: 'tag', tagIds: [tags[0].id] } })
+    const doc = emptyDoc()
+    doc.tags = tags
+    doc.events = [makeEvent({ start: 0, end: 10, tags: [tags[0].id] })]
+    const layout = layoutRow(row, {
+      doc,
+      corpus: [],
+      viewStart: -100,
+      viewEnd: 100,
+      today: 0,
+      filter: null,
+    })
+    expect(layout.colorVariant(doc.events[0].id)).toBeNull()
+  })
+})
+
 describe('schema and migration', () => {
+  it('migrates a v1 document forward, defaulting the new fields', () => {
+    // A genuine v1 document: no color on events, no varyColors on rows.
+    const v1 = {
+      schema: 1,
+      meta: { title: 'old', created: '', modified: '' },
+      tags: [{ id: 't1', label: 'home', color: '#b87040', parent: null, styleChannel: 'fill' }],
+      events: [
+        {
+          id: 'e1',
+          label: 'Belgium',
+          start: -9862,
+          end: -8401,
+          ongoing: false,
+          tags: ['t1'],
+          note: '',
+          startPrecision: null,
+          endPrecision: null,
+          source: 'personal',
+        },
+      ],
+      rows: [
+        {
+          id: 'r1', label: 'home', source: { kind: 'tag', tagIds: ['t1'] },
+          packing: 'single', maxLanes: 4, minSubBandPx: 8, height: 30,
+          layer: 'stack', pinned: false, sort: 'start', order: 0, visible: true,
+        },
+      ],
+      views: [],
+    } as unknown as TimelineDoc
+
+    const out = migrate(v1)
+    expect(out.schema).toBe(2)
+    expect(out.events[0].color).toBeNull()
+    expect(out.rows[0].varyColors).toBe(false)
+    // Everything else is untouched — a v1 document renders exactly as before.
+    expect(out.events[0]).toMatchObject({ label: 'Belgium', start: -9862, end: -8401 })
+  })
+
+  it('is idempotent on an already-current document', () => {
+    const doc = starterDoc()
+    expect(migrate(doc)).toEqual(doc)
+  })
+
   it('refuses a document from a newer schema rather than guessing', () => {
     const future = { ...emptyDoc(), schema: 99 } as TimelineDoc
     expect(() => migrate(future)).toThrow(SchemaTooNewError)
-    expect(() => migrate(future)).toThrow(/only understands up to 1/)
+    expect(() => migrate(future)).toThrow(
+      new RegExp(`only understands up to ${SCHEMA_VERSION}`),
+    )
   })
 
   it('rejects a file that is not a Timeline document', () => {

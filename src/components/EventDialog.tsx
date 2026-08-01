@@ -42,6 +42,7 @@ export function EventDialog({ request, tags, onSave, onDelete, onCreateTag, onCl
   const [endText, setEndText] = useState(() => initialText(event.end, event.ongoing, 'end'))
   const [selectedTags, setSelectedTags] = useState<string[]>(event.tags)
   const [note, setNote] = useState(event.note)
+  const [color, setColor] = useState<string | null>(event.color)
   const [tagQuery, setTagQuery] = useState('')
   const [confirmDelete, setConfirmDelete] = useState(false)
   const labelRef = useRef<HTMLInputElement>(null)
@@ -85,6 +86,7 @@ export function EventDialog({ request, tags, onSave, onDelete, onCreateTag, onCl
       ongoing,
       tags: selectedTags,
       note: note.trim(),
+      color,
     }
   }
 
@@ -254,6 +256,40 @@ export function EventDialog({ request, tags, onSave, onDelete, onCreateTag, onCl
               )}
             </div>
           )}
+        </div>
+
+        <div className="field-row">
+          <span className="label">Colour</span>
+          <div className="color-row">
+            <label className="check-row check-row--tight">
+              <input
+                type="checkbox"
+                checked={color !== null}
+                onChange={(e) =>
+                  setColor(
+                    e.target.checked
+                      ? (tagsById.get(selectedTags[0])?.color ?? '#b87040')
+                      : null,
+                  )
+                }
+              />
+              <span>Override this event’s colour</span>
+            </label>
+            {color !== null && (
+              <input
+                className="color-input"
+                type="color"
+                value={color}
+                onChange={(e) => setColor(e.target.value)}
+                aria-label="Event colour"
+              />
+            )}
+          </div>
+          <span className="field-echo">
+            {color === null
+              ? '→ follows its tag, or the row’s colour variation'
+              : '→ this colour, whatever the tag or row says'}
+          </span>
         </div>
 
         <label className="field-row">

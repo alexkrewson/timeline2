@@ -104,6 +104,7 @@ const events = ENTRIES.map(([label, startRaw, endRaw, significance, topics]) => 
     ongoing: false,
     tags: [],
     note: '',
+    color: null,
     startPrecision: null,
     endPrecision: null,
     source: 'corpus',
@@ -115,7 +116,7 @@ const events = ENTRIES.map(([label, startRaw, endRaw, significance, topics]) => 
 }).sort((a, b) => a.start - b.start)
 
 mkdirSync(dirname(outPath), { recursive: true })
-writeFileSync(outPath, `${JSON.stringify({ schema: 1, events }, null, 1)}\n`)
+writeFileSync(outPath, `${JSON.stringify({ schema: 2, events }, null, 1)}\n`)
 
 const spans = events.map((e) => e.end - e.start + 1)
 console.log(`Wrote ${events.length} corpus events to ${outPath}`)

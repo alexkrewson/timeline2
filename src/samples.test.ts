@@ -9,7 +9,7 @@ import { describe, expect, it } from 'vitest'
 import sample from '../samples/sample-dense.timeline.json'
 import { effectiveEnd, loadDoc } from './model/doc'
 import { eventsForRow } from './model/rows'
-import type { CorpusEvent, TimelineDoc } from './model/types'
+import { SCHEMA_VERSION, type CorpusEvent, type TimelineDoc } from './model/types'
 import { LABEL_FONT_SIZE, LABEL_PAD, planLabels } from './render/labels'
 import { barExtent, layoutRow, MIN_BAR_PX } from './render/layout'
 import { daysFromCivil, todayDay } from './time/days'
@@ -41,7 +41,7 @@ const layoutFor = (label: string) => layoutRow(doc.rows.find((r) => r.label === 
 describe('sample document', () => {
   it('loads cleanly, with no invariant repairs needed', () => {
     expect(repairs).toEqual([])
-    expect(doc.schema).toBe(1)
+    expect(doc.schema).toBe(SCHEMA_VERSION)
     expect(doc.events.length).toBeGreaterThan(100)
     for (const e of doc.events) expect(e.end).toBeGreaterThanOrEqual(e.start)
   })

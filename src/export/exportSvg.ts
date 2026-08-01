@@ -11,7 +11,7 @@ import { segmentsToPolygon } from '../model/packing'
 import type { CorpusEvent, RowConfig, TimelineDoc } from '../model/types'
 import { LABEL_FONT_SIZE, LABEL_PAD, planLabels } from '../render/labels'
 import { barExtent, layoutRow, LANE_GAP, MIN_BAR_PX, type RowLayout } from '../render/layout'
-import { barStyle, desaturate, textOn } from '../render/style'
+import { desaturate, styleFor, textOn } from '../render/style'
 import { truncateToWidth } from '../render/text'
 import { todayDay } from '../time/days'
 import { formatTick } from '../time/format'
@@ -169,7 +169,7 @@ export function buildExportSvg(
     )
 
     for (const p of layout.packed.placed) {
-      const style = barStyle(p.event, tagsById)
+      const style = styleFor(p.event, tagsById, layout.colorVariant(p.event.id))
       const fill = style.desaturated ? desaturate(style.fill) : style.fill
       const points = segmentsToPolygon(p.segments, layout.laneTop(p.lane), toX, MIN_BAR_PX)
       if (!points) continue
@@ -194,7 +194,9 @@ export function buildExportSvg(
 
     for (const l of plan.labels) {
       const placed = layout.packed.placed.find((p) => p.event.id === l.eventId)
-      const barFill = placed ? barStyle(placed.event, tagsById).fill : c.surface
+      const barFill = placed
+        ? styleFor(placed.event, tagsById, layout.colorVariant(placed.event.id)).fill
+        : c.surface
       const x = round(l.x + settings.gutterWidth)
       if (l.leader) {
         parts.push(

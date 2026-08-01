@@ -135,7 +135,9 @@ export const ChartRow = memo(function ChartRow({
 
         {plan.labels.map((l) => {
           const placed = layout.packed.placed.find((p) => p.event.id === l.eventId)
-          const fill = placed ? styleFor(placed.event, tagsById).fill : '#000'
+          const fill = placed
+            ? styleFor(placed.event, tagsById, layout.colorVariant(placed.event.id)).fill
+            : '#000'
           return (
             <g key={`${l.eventId}-${l.kind}`} className={`label label--${l.kind}`}>
               {l.leader && (
@@ -201,7 +203,7 @@ function Bar({
   const { x1 } = barExtent(last.start, last.endEx, toX)
   if (!isVisible(x0, x1, width)) return null
 
-  const style = styleFor(placed.event, tagsById)
+  const style = styleFor(placed.event, tagsById, layout.colorVariant(placed.event.id))
   const fill = style.desaturated ? desaturate(style.fill) : style.fill
   const laneTop = layout.laneTop(placed.lane)
   const points = segmentsToPolygon(placed.segments, laneTop, toX, MIN_BAR_PX)
@@ -298,7 +300,7 @@ export const BackdropLayer = memo(function BackdropLayer({
           const lastSeg = p.segments.at(-1)!
           const { x1 } = barExtent(lastSeg.start, lastSeg.endEx, (d) => dayToX(d, cam))
           if (!isVisible(x0, x1, width)) return null
-          const fill = styleFor(p.event, tagsById).fill
+          const fill = styleFor(p.event, tagsById, layout.colorVariant(p.event.id)).fill
           const cx = (Math.max(0, x0) + Math.min(width, x1)) / 2
           const w = Math.min(width, x1) - Math.max(0, x0)
           return (
@@ -350,7 +352,7 @@ export const BackdropStrip = memo(function BackdropStrip({
         const lastSeg = p.segments.at(-1)!
         const { x1 } = barExtent(lastSeg.start, lastSeg.endEx, toX)
         if (!isVisible(x0, x1, width)) return null
-        const fill = styleFor(p.event, tagsById).fill
+        const fill = styleFor(p.event, tagsById, layout.colorVariant(p.event.id)).fill
         const vx0 = Math.max(0, x0)
         const vx1 = Math.min(width, x1)
         const w = vx1 - vx0

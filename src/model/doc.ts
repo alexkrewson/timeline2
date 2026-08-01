@@ -54,6 +54,7 @@ export function makeRow(label: string, partial: Partial<RowConfig> = {}): RowCon
     minSubBandPx: 8,
     height: 30,
     layer: 'stack',
+    varyColors: false,
     pinned: false,
     sort: 'start',
     order: 0,
@@ -72,6 +73,7 @@ export function makeEvent(partial: Partial<TimelineEvent> = {}): TimelineEvent {
     ongoing: false,
     tags: [],
     note: '',
+    color: null,
     startPrecision: null,
     endPrecision: null,
     source: 'personal',
@@ -113,7 +115,15 @@ type Migration = (doc: TimelineDoc) => TimelineDoc
 
 /** Keyed by the schema version each function upgrades *from*. */
 const MIGRATIONS: Record<number, Migration> = {
-  // 0: (doc) => ({ ...doc, schema: 1, /* … */ }),
+  // 1 → 2: per-event colour override and row-level colour variation (§8.3).
+  // Both are additive with a null/false default, so a v1 document keeps
+  // rendering exactly as it did.
+  1: (doc) => ({
+    ...doc,
+    schema: 2,
+    events: doc.events.map((e) => ({ ...e, color: e.color ?? null })),
+    rows: doc.rows.map((r) => ({ ...r, varyColors: r.varyColors ?? false })),
+  }),
 }
 
 export class SchemaTooNewError extends Error {

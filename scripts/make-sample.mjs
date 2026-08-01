@@ -54,6 +54,7 @@ function builder() {
       ongoing: false,
       tags: tagIds,
       note: '',
+      color: null,
       startPrecision: null,
       endPrecision: null,
       source: 'personal',
@@ -69,6 +70,7 @@ function builder() {
     minSubBandPx: 8,
     height: 30,
     layer: 'stack',
+    varyColors: false,
     pinned: false,
     sort: 'start',
     order: 0,
@@ -90,7 +92,7 @@ const tag = (id, label, color, styleChannel = 'fill') => ({
 function write(name, title, tags, events, rows) {
   const created = '2026-08-01T00:00:00.000Z'
   const doc = {
-    schema: 1,
+    schema: 2,
     meta: { title, created, modified: created },
     tags,
     events: events.sort((a, b) => a.start - b.start),
@@ -136,11 +138,14 @@ function write(name, title, tags, events, rows) {
   ev('Sam — met at school, age 10', D(1996, 9, 3), null, ['t_friends'], { ongoing: true })
   ev('Rosa — met at university, age 20', D(2006, 10, 12), null, ['t_friends'], { ongoing: true })
 
+  // varyColors on the rows whose entries are individuals rather than a
+  // category: in a single-tag row the tag colour is redundant with the row
+  // label, so one colour per entry says more than repeating the tag's.
   const rows = [
     row('life', ['t_life'], { order: 0, height: 24 }),
-    row('school', ['t_school'], { order: 1 }),
-    row('work', ['t_work'], { order: 2 }),
-    row('friends', ['t_friends'], { order: 3 }),
+    row('school', ['t_school'], { order: 1, varyColors: true }),
+    row('work', ['t_work'], { order: 2, varyColors: true }),
+    row('friends', ['t_friends'], { order: 3, varyColors: true }),
   ]
 
   write('sample-simple.timeline.json', 'A simple life', tags, events, rows)
@@ -284,7 +289,7 @@ function write(name, title, tags, events, rows) {
     row('home', ['t_home'], { order: 1 }),
     row('school', ['t_school'], { order: 2 }),
     row('work', ['t_work'], { order: 3 }),
-    row('friends', ['t_friends'], { order: 4, maxLanes: 6, height: 26 }),
+    row('friends', ['t_friends'], { order: 4, maxLanes: 6, height: 26, varyColors: true }),
     row('travel', ['t_travel'], { order: 5, height: 24 }),
     row('music', ['t_music'], { order: 6 }),
     row('health', ['t_health'], { order: 7 }),

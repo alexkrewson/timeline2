@@ -19,6 +19,12 @@ export type RowLayout = {
   height: number
   /** y of a lane's top, relative to the row. */
   laneTop: (lane: number) => number
+  /**
+   * Palette slot per event when the row varies colours, else null. Keyed off
+   * position in the row's start-sorted list, so a bar keeps its colour as long
+   * as the row's contents do.
+   */
+  colorVariant: (eventId: string) => number | null
 }
 
 export function layoutRow(row: RowConfig, ctx: RowContext): RowLayout {
@@ -32,6 +38,9 @@ export function layoutRow(row: RowConfig, ctx: RowContext): RowLayout {
     today: ctx.today,
   })
   const lanes = Math.max(1, packed.laneCount)
+  const variants = row.varyColors
+    ? new Map(events.map((e, i) => [e.id, i]))
+    : null
   return {
     row,
     events,
@@ -39,6 +48,7 @@ export function layoutRow(row: RowConfig, ctx: RowContext): RowLayout {
     laneHeight,
     height: lanes * laneHeight + (lanes - 1) * LANE_GAP,
     laneTop: (lane) => lane * (laneHeight + LANE_GAP),
+    colorVariant: (eventId) => variants?.get(eventId) ?? null,
   }
 }
 

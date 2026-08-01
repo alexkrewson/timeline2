@@ -514,6 +514,12 @@ button {
   margin-top: 0.4rem;
 }
 
+.color-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
 .color-input {
   width: 34px;
   height: 30px;

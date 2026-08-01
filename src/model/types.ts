@@ -1,6 +1,6 @@
 /** Document schema (§8.1). All times are integer days, day 0 = 1970-01-01. */
 
-export const SCHEMA_VERSION = 1
+export const SCHEMA_VERSION = 2
 
 export type StyleChannel = 'fill' | 'saturation' | 'stripe' | 'outline'
 
@@ -30,6 +30,12 @@ export type TimelineEvent = {
   ongoing: boolean
   tags: string[]
   note: string
+  /**
+   * Per-event fill override (§8.3). Null means "use the tag colour", which is
+   * the normal case. Set, it wins over both the tag colour and any row-level
+   * colour variation.
+   */
+  color: string | null
   /** Reserved for v2 fuzzy dates, in days. Unused in v1 (§3.4). */
   startPrecision: number | null
   endPrecision: number | null
@@ -62,6 +68,13 @@ export type RowConfig = {
   /** px, per lane. */
   height: number
   layer: 'stack' | 'backdrop'
+  /**
+   * Give each event in this row its own palette colour instead of sharing the
+   * tag's. A view property, not data: in a single-tag row the tag colour is
+   * redundant anyway — the row label already says it — so varying the fill
+   * carries more information than repeating it.
+   */
+  varyColors: boolean
   pinned: boolean
   sort: 'start'
   order: number

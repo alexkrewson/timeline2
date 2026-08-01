@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "meta": {
   "title": "A sample life",
   "created": "2026-08-01T00:00:00.000Z",
@@ -102,6 +102,7 @@
     "t_era"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -116,6 +117,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -130,6 +132,7 @@
     "t_family"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -144,6 +147,7 @@
     "t_family"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -158,6 +162,7 @@
     "t_school"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -172,6 +177,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -186,6 +192,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -200,6 +207,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -214,6 +222,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -229,6 +238,7 @@
     "t_partner"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -243,6 +253,7 @@
     "t_music"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -257,6 +268,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -271,6 +283,7 @@
     "t_health"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -285,6 +298,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -299,6 +313,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -313,6 +328,7 @@
     "t_family"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -327,6 +343,7 @@
     "t_school"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -341,6 +358,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -356,6 +374,7 @@
     "t_dormant"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -370,6 +389,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -384,6 +404,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -398,6 +419,7 @@
     "t_music"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -412,6 +434,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -426,6 +449,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -440,6 +464,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -454,6 +479,7 @@
     "t_school"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -469,6 +495,7 @@
     "t_dormant"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -483,6 +510,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -497,6 +525,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -511,6 +540,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -525,6 +555,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -540,6 +571,7 @@
     "t_school"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -554,6 +586,7 @@
     "t_era"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -568,6 +601,7 @@
     "t_school"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -582,6 +616,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -596,6 +631,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -610,6 +646,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -624,6 +661,7 @@
     "t_music"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -638,6 +676,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -652,6 +691,7 @@
     "t_family"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -667,6 +707,7 @@
     "t_dormant"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -681,6 +722,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -696,6 +738,7 @@
     "t_dormant"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -710,6 +753,7 @@
     "t_era"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -724,6 +768,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -738,6 +783,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -752,6 +798,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -766,6 +813,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -781,6 +829,7 @@
     "t_dormant"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -795,6 +844,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -809,6 +859,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -823,6 +874,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -837,6 +889,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -849,6 +902,7 @@
    "ongoing": false,
    "tags": [],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -863,6 +917,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -877,6 +932,7 @@
     "t_school"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -891,6 +947,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -905,6 +962,7 @@
     "t_health"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -919,6 +977,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -933,6 +992,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -948,6 +1008,7 @@
     "t_dormant"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -962,6 +1023,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -976,6 +1038,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -995,6 +1058,7 @@
     "t_health"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1011,6 +1075,7 @@
     "t_partner"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1025,6 +1090,7 @@
     "t_era"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1039,6 +1105,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1053,6 +1120,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1067,6 +1135,7 @@
     "t_family"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1081,6 +1150,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1095,6 +1165,7 @@
     "t_health"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1109,6 +1180,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1123,6 +1195,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1137,6 +1210,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1151,6 +1225,7 @@
     "t_family"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1165,6 +1240,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1179,6 +1255,7 @@
     "t_music"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1193,6 +1270,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1207,6 +1285,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1222,6 +1301,7 @@
     "t_fuzzy"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1236,6 +1316,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1250,6 +1331,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1264,6 +1346,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1278,6 +1361,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1292,6 +1376,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1306,6 +1391,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1320,6 +1406,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1334,6 +1421,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1348,6 +1436,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1362,6 +1451,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1376,6 +1466,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1390,6 +1481,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1404,6 +1496,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1418,6 +1511,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1432,6 +1526,7 @@
     "t_era"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1446,6 +1541,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1460,6 +1556,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1474,6 +1571,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1488,6 +1586,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1502,6 +1601,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1517,6 +1617,7 @@
     "t_dormant"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1531,6 +1632,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1545,6 +1647,7 @@
     "t_home"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1559,6 +1662,7 @@
     "t_era"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1573,6 +1677,7 @@
     "t_work"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1587,6 +1692,7 @@
     "t_friends"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1601,6 +1707,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1615,6 +1722,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1629,6 +1737,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1643,6 +1752,7 @@
     "t_travel"
    ],
    "note": "",
+   "color": null,
    "startPrecision": null,
    "endPrecision": null,
    "source": "personal"
@@ -1663,6 +1773,7 @@
    "minSubBandPx": 8,
    "height": 22,
    "layer": "backdrop",
+   "varyColors": false,
    "pinned": true,
    "sort": "start",
    "order": 0,
@@ -1682,6 +1793,7 @@
    "minSubBandPx": 8,
    "height": 30,
    "layer": "stack",
+   "varyColors": false,
    "pinned": false,
    "sort": "start",
    "order": 1,
@@ -1701,6 +1813,7 @@
    "minSubBandPx": 8,
    "height": 30,
    "layer": "stack",
+   "varyColors": false,
    "pinned": false,
    "sort": "start",
    "order": 2,
@@ -1720,6 +1833,7 @@
    "minSubBandPx": 8,
    "height": 30,
    "layer": "stack",
+   "varyColors": false,
    "pinned": false,
    "sort": "start",
    "order": 3,
@@ -1739,6 +1853,7 @@
    "minSubBandPx": 8,
    "height": 26,
    "layer": "stack",
+   "varyColors": true,
    "pinned": false,
    "sort": "start",
    "order": 4,
@@ -1758,6 +1873,7 @@
    "minSubBandPx": 8,
    "height": 24,
    "layer": "stack",
+   "varyColors": false,
    "pinned": false,
    "sort": "start",
    "order": 5,
@@ -1777,6 +1893,7 @@
    "minSubBandPx": 8,
    "height": 30,
    "layer": "stack",
+   "varyColors": false,
    "pinned": false,
    "sort": "start",
    "order": 6,
@@ -1796,6 +1913,7 @@
    "minSubBandPx": 8,
    "height": 30,
    "layer": "stack",
+   "varyColors": false,
    "pinned": false,
    "sort": "start",
    "order": 7,
@@ -1815,6 +1933,7 @@
    "minSubBandPx": 8,
    "height": 24,
    "layer": "stack",
+   "varyColors": false,
    "pinned": false,
    "sort": "start",
    "order": 8,

@@ -7,6 +7,7 @@
  */
 
 import type { Tag, TimelineEvent } from '../model/types'
+import { TAG_PALETTE } from '../styles/themes'
 
 export type BarStyle = {
   fill: string
@@ -24,8 +25,29 @@ export const DEFAULT_BAR_FILL = '#6b5230'
 /** Corpus events carry no personal tags, so they get their own quiet fill. */
 export const CORPUS_FILL = '#5c6b7a'
 
-export function styleFor(event: TimelineEvent, tagsById: Map<string, Tag>): BarStyle {
-  return barStyle(event, tagsById, event.source === 'corpus' ? CORPUS_FILL : DEFAULT_BAR_FILL)
+/**
+ * Fill precedence, strongest first (§8.3):
+ *   1. the event's own colour override
+ *   2. the row's colour variation, if the row asked for it
+ *   3. the first fill-channel tag's colour
+ *   4. a neutral fallback
+ *
+ * The modifier channels are unaffected by any of this — saturation, stripe and
+ * outline still mean exactly what their tags say, whatever the fill is.
+ */
+export function styleFor(
+  event: TimelineEvent,
+  tagsById: Map<string, Tag>,
+  variant?: number | null,
+): BarStyle {
+  const base = barStyle(
+    event,
+    tagsById,
+    event.source === 'corpus' ? CORPUS_FILL : DEFAULT_BAR_FILL,
+  )
+  if (event.color) return { ...base, fill: event.color }
+  if (variant != null) return { ...base, fill: TAG_PALETTE[variant % TAG_PALETTE.length] }
+  return base
 }
 
 export function barStyle(
