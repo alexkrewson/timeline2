@@ -1,6 +1,6 @@
 /** Document schema (§8.1). All times are integer days, day 0 = 1970-01-01. */
 
-export const SCHEMA_VERSION = 2
+export const SCHEMA_VERSION = 3
 
 export type StyleChannel = 'fill' | 'saturation' | 'stripe' | 'outline'
 
@@ -61,7 +61,14 @@ export type RowConfig = {
   id: string
   label: string
   source: RowSource
-  packing: 'single' | 'auto'
+  /**
+   * `single` keeps everything in one lane, sub-banding overlaps.
+   * `auto` first-fits into as few lanes as possible.
+   * `per-event` gives every event its own lane even when they'd share one —
+   * for rows whose entries are people, where "one person, one line" reads
+   * better than saving vertical space.
+   */
+  packing: 'single' | 'auto' | 'per-event'
   /** Soft cap; spilling past it is allowed and flagged. */
   maxLanes: number
   minSubBandPx: number
@@ -90,7 +97,17 @@ export type SavedView = {
 
 export type TimelineDoc = {
   schema: number
-  meta: { title: string; created: string; modified: string }
+  meta: {
+    title: string
+    created: string
+    modified: string
+    /**
+     * Day of birth. When set, the axis carries an age scale above the calendar
+     * one — on a personal timeline "how old was I" is often the actual
+     * question. Null means no age axis.
+     */
+    birthDay: number | null
+  }
   tags: Tag[]
   events: TimelineEvent[]
   rows: RowConfig[]

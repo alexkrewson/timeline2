@@ -15,7 +15,7 @@ import type {
   TimelineDoc,
   TimelineEvent,
 } from '../model/types'
-import { formatDayShort } from '../time/format'
+import { formatDayLong, formatDayShort } from '../time/format'
 
 export type Filters = {
   query: string
@@ -68,6 +68,10 @@ type Props = {
   onMoveRow: (id: string, dir: -1 | 1) => void
   onUpdateTag: (tag: Tag) => void
   onDeleteTag: (id: string) => void
+  /** Raw text of the birth-date field, so a half-typed date isn't discarded. */
+  birthText: string
+  birthDay: number | null
+  onBirthText: (text: string) => void
   corpusOn: boolean
   onCorpusOn: (on: boolean) => void
   recMode: RecMode
@@ -93,6 +97,12 @@ const CHANNELS: { value: StyleChannel; label: string; hint: string }[] = [
   { value: 'saturation', label: 'Faded', hint: 'Modifier — e.g. dormant' },
   { value: 'stripe', label: 'Underline stripe', hint: 'Modifier — e.g. partner' },
   { value: 'outline', label: 'Dashed outline', hint: 'Modifier — e.g. uncertain' },
+]
+
+const PACKINGS: { value: RowConfig['packing']; label: string; hint: string }[] = [
+  { value: 'single', label: 'One lane', hint: 'Everything shares a lane; overlaps split its height' },
+  { value: 'auto', label: 'Few lanes', hint: 'Add lanes only where bars would collide' },
+  { value: 'per-event', label: 'One each', hint: 'Every event gets its own lane, always' },
 ]
 
 export function SidePanel(props: Props) {
@@ -252,7 +262,24 @@ export function SidePanel(props: Props) {
         )}
 
         {tab === 'rows' && (
-          <ul className="row-list">
+          <>
+            <label className="field-row">
+              <span className="label">Date of birth — adds an age scale to the axis</span>
+              <input
+                className="field"
+                value={props.birthText}
+                onChange={(e) => props.onBirthText(e.target.value)}
+                placeholder="1986-05-14 · blank for no age axis"
+              />
+              <span className="field-echo">
+                {props.birthText.trim()
+                  ? props.birthDay !== null
+                    ? `→ ${formatDayLong(props.birthDay)}`
+                    : "→ can't read that date"
+                  : '→ no age axis'}
+              </span>
+            </label>
+            <ul className="row-list">
             {sortedRows.map((row, i) => (
               <li key={row.id} className="row-list__item">
                 <div className="row-list__head">
@@ -306,16 +333,22 @@ export function SidePanel(props: Props) {
                     />
                     <span>Backdrop</span>
                   </label>
-                  <label className="check-row check-row--tight">
-                    <input
-                      type="checkbox"
-                      checked={row.packing === 'auto'}
-                      onChange={(e) =>
-                        props.onUpdateRow({ ...row, packing: e.target.checked ? 'auto' : 'single' })
-                      }
-                    />
-                    <span>One lane per overlap</span>
-                  </label>
+                  <span className="label">Packing</span>
+                  <div className="mode-toggle">
+                    {PACKINGS.map((p) => (
+                      <button
+                        key={p.value}
+                        className={`mode-toggle__btn${
+                          row.packing === p.value ? ' mode-toggle__btn--on' : ''
+                        }`}
+                        onClick={() => props.onUpdateRow({ ...row, packing: p.value })}
+                        aria-pressed={row.packing === p.value}
+                        title={p.hint}
+                      >
+                        {p.label}
+                      </button>
+                    ))}
+                  </div>
                   <label className="check-row check-row--tight">
                     <input
                       type="checkbox"
@@ -346,10 +379,11 @@ export function SidePanel(props: Props) {
                 </div>
               </li>
             ))}
-            {sortedRows.length === 0 && (
-              <p className="empty">No rows yet — add one from a tag in the Search tab.</p>
-            )}
-          </ul>
+              {sortedRows.length === 0 && (
+                <p className="empty">No rows yet — add one from a tag in the Search tab.</p>
+              )}
+            </ul>
+          </>
         )}
 
         {tab === 'tags' && (

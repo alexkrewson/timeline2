@@ -1,9 +1,10 @@
 {
- "schema": 2,
+ "schema": 3,
  "meta": {
   "title": "A simple life",
   "created": "2026-08-01T00:00:00.000Z",
-  "modified": "2026-08-01T00:00:00.000Z"
+  "modified": "2026-08-01T00:00:00.000Z",
+  "birthDay": 5977
  },
  "tags": [
   {
@@ -242,7 +243,7 @@
      "t_friends"
     ]
    },
-   "packing": "single",
+   "packing": "per-event",
    "maxLanes": 4,
    "minSubBandPx": 8,
    "height": 30,

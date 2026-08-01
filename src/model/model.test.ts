@@ -324,10 +324,12 @@ describe('schema and migration', () => {
       views: [],
     } as unknown as TimelineDoc
 
+    // The whole chain runs: 1 → 2 → 3.
     const out = migrate(v1)
-    expect(out.schema).toBe(2)
+    expect(out.schema).toBe(SCHEMA_VERSION)
     expect(out.events[0].color).toBeNull()
     expect(out.rows[0].varyColors).toBe(false)
+    expect(out.meta.birthDay).toBeNull()
     // Everything else is untouched — a v1 document renders exactly as before.
     expect(out.events[0]).toMatchObject({ label: 'Belgium', start: -9862, end: -8401 })
   })

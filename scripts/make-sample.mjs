@@ -89,11 +89,11 @@ const tag = (id, label, color, styleChannel = 'fill') => ({
   styleChannel,
 })
 
-function write(name, title, tags, events, rows) {
+function write(name, title, tags, events, rows, birthDay = null) {
   const created = '2026-08-01T00:00:00.000Z'
   const doc = {
-    schema: 2,
-    meta: { title, created, modified: created },
+    schema: 3,
+    meta: { title, created, modified: created, birthDay },
     tags,
     events: events.sort((a, b) => a.start - b.start),
     rows,
@@ -145,10 +145,11 @@ function write(name, title, tags, events, rows) {
     row('life', ['t_life'], { order: 0, height: 24 }),
     row('school', ['t_school'], { order: 1, varyColors: true }),
     row('work', ['t_work'], { order: 2, varyColors: true }),
-    row('friends', ['t_friends'], { order: 3, varyColors: true }),
+    // per-event: one friend, one line — the way the Excel original reads.
+    row('friends', ['t_friends'], { order: 3, varyColors: true, packing: 'per-event' }),
   ]
 
-  write('sample-simple.timeline.json', 'A simple life', tags, events, rows)
+  write('sample-simple.timeline.json', 'A simple life', tags, events, rows, D(1986, 5, 14))
 }
 
 // ==========================================================================
@@ -296,5 +297,5 @@ function write(name, title, tags, events, rows) {
     row('family', ['t_family'], { order: 8, height: 24 }),
   ]
 
-  write('sample-dense.timeline.json', 'A sample life', tags, events, rows)
+  write('sample-dense.timeline.json', 'A sample life', tags, events, rows, D(1988, 4, 2))
 }

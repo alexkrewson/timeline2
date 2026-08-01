@@ -25,7 +25,7 @@ export function emptyDoc(title = 'Untitled timeline'): TimelineDoc {
   const created = nowIso()
   return {
     schema: SCHEMA_VERSION,
-    meta: { title, created, modified: created },
+    meta: { title, created, modified: created, birthDay: null },
     tags: [],
     events: [],
     rows: [],
@@ -123,6 +123,13 @@ const MIGRATIONS: Record<number, Migration> = {
     schema: 2,
     events: doc.events.map((e) => ({ ...e, color: e.color ?? null })),
     rows: doc.rows.map((r) => ({ ...r, varyColors: r.varyColors ?? false })),
+  }),
+  // 2 → 3: an optional birth day on the document, driving the age axis.
+  // Null means no age axis, which is what every existing document gets.
+  2: (doc) => ({
+    ...doc,
+    schema: 3,
+    meta: { ...doc.meta, birthDay: doc.meta.birthDay ?? null },
   }),
 }
 

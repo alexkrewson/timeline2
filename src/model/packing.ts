@@ -43,7 +43,7 @@ export type PackOptions = {
   laneHeight: number
   minSubBandPx: number
   maxLanes: number
-  packing: 'single' | 'auto'
+  packing: 'single' | 'auto' | 'per-event'
   today: number
 }
 
@@ -164,7 +164,13 @@ export function packRow(events: TimelineEvent[], opts: PackOptions): PackedRow {
   const spans = toSpans(events, opts.today)
   if (spans.length === 0) return { laneCount: 0, placed: [], spilled: false, spillCount: 0 }
 
-  const initial: Span[][] = opts.packing === 'auto' ? firstFitLanes(spans) : [spans]
+  const initial: Span[][] =
+    opts.packing === 'auto'
+      ? firstFitLanes(spans)
+      : opts.packing === 'per-event'
+        ? // One lane each, in start order — no sub-banding, no sharing.
+          spans.map((s) => [s])
+        : [spans]
 
   const placed: PlacedEvent[] = []
   const queue = [...initial]

@@ -17,6 +17,7 @@ import type { RowConfig, Tag, TimelineDoc, TimelineEvent } from '../model/types'
 export type DocAction =
   | { type: 'replace'; doc: TimelineDoc; resetHistory?: boolean }
   | { type: 'set-title'; title: string }
+  | { type: 'set-birth-day'; day: number | null }
   | { type: 'add-event'; event: TimelineEvent }
   | { type: 'update-event'; event: TimelineEvent }
   | { type: 'delete-event'; id: string }
@@ -64,6 +65,10 @@ export function docReducer(state: DocState, action: DocAction): DocState {
 
     case 'set-title':
       return applyDoc(state, { ...doc, meta: { ...doc.meta, title: action.title } })
+
+    case 'set-birth-day':
+      if (doc.meta.birthDay === action.day) return state
+      return applyDoc(state, { ...doc, meta: { ...doc.meta, birthDay: action.day } })
 
     case 'add-event':
       return applyDoc(state, { ...doc, events: [...doc.events, normalizeEvent(action.event)] })

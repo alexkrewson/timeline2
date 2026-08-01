@@ -27,8 +27,9 @@ import {
   useCameraState,
 } from './state/camera'
 import { applyPrefs, loadPrefs, savePrefs, type Prefs } from './state/prefs'
+import { parseFlexibleDate } from './model/parseDate'
 import { todayDay } from './time/days'
-import { formatDuration } from './time/format'
+import { formatDayIso, formatDuration } from './time/format'
 import { panByPx, viewRange, zoomAt, type Camera } from './time/scale'
 
 export default function App() {
@@ -60,6 +61,7 @@ function Workspace() {
   const [fileName, setFileName] = useState<string | null>(null)
   const [recovery, setRecovery] = useState<persist.CrashBuffer | null>(null)
   const [status, setStatus] = useState<string | null>(null)
+  const [birthText, setBirthText] = useState('')
 
   const chartRef = useRef<HTMLDivElement>(null)
   const plotRef = useRef<HTMLDivElement>(null)
@@ -134,6 +136,15 @@ function Workspace() {
 
   // --------------------------------------------------------------- layout
   const view = useMemo(() => viewRange(cam, width), [cam, width])
+  const parsedBirth = useMemo(
+    () => (birthText.trim() ? (parseFlexibleDate(birthText, 'start')?.day ?? null) : null),
+    [birthText],
+  )
+
+  // Keep the field in step when a different document is loaded.
+  useEffect(() => {
+    setBirthText(doc.meta.birthDay === null ? '' : formatDayIso(doc.meta.birthDay))
+  }, [doc.meta.birthDay])
 
   const corpusRow: RowConfig | null = useMemo(() => {
     if (!prefs.corpusOn || corpus.length === 0) return null
@@ -438,6 +449,17 @@ function Workspace() {
             onMoveRow={moveRow}
             onUpdateTag={(tag) => dispatch({ type: 'update-tag', tag })}
             onDeleteTag={(id) => dispatch({ type: 'delete-tag', id })}
+            birthText={birthText}
+            birthDay={parsedBirth}
+            onBirthText={(text) => {
+              setBirthText(text)
+              const parsed = text.trim() ? parseFlexibleDate(text, 'start')?.day : null
+              // Only commit a date we could actually read; a half-typed one
+              // shouldn't wipe the axis.
+              if (!text.trim() || parsed !== undefined) {
+                dispatch({ type: 'set-birth-day', day: text.trim() ? (parsed ?? null) : null })
+              }
+            }}
             corpusOn={prefs.corpusOn}
             onCorpusOn={(on) => setPrefs({ ...prefs, corpusOn: on })}
             recMode={prefs.recMode}
@@ -453,7 +475,7 @@ function Workspace() {
               <span className="chart__span">{spanLabel}</span>
             </div>
             <div className="chart__plot" ref={plotRef}>
-              <Axis cam={cam} width={width} today={today} />
+              <Axis cam={cam} width={width} today={today} birthDay={doc.meta.birthDay} />
             </div>
           </div>
 

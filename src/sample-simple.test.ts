@@ -10,6 +10,7 @@ import { durationDays, effectiveEnd, loadDoc } from './model/doc'
 import type { CorpusEvent, TimelineDoc } from './model/types'
 import { planLabels } from './render/labels'
 import { layoutRow } from './render/layout'
+import { styleFor } from './render/style'
 import { daysFromCivil, todayDay } from './time/days'
 import { dayToX, fitRange } from './time/scale'
 
@@ -74,16 +75,35 @@ describe('simple sample', () => {
     }
   })
 
-  it('splits the friends lane where the two friendships overlap', () => {
+  it('gives each friend their own line', () => {
     const layout = layoutFor('friends')
-    expect(layout.packed.laneCount).toBe(1)
+    expect(layout.row.packing).toBe('per-event')
+    expect(layout.packed.laneCount).toBe(2)
+    // One friend, one lane, full height — no sub-banding where they overlap.
+    for (const p of layout.packed.placed) {
+      expect(p.segments).toHaveLength(1)
+      expect(p.segments[0].height).toBe(layout.laneHeight)
+    }
     const sam = layout.packed.placed.find((p) => p.event.label.startsWith('Sam'))!
-    // Full height until Rosa arrives, then half.
-    expect(sam.segments).toHaveLength(2)
-    expect(sam.segments[0].height).toBe(layout.laneHeight)
-    expect(sam.segments[1].height).toBe(layout.laneHeight / 2)
-    // Earliest start stays on top throughout.
-    expect(sam.segments.every((s) => s.top === 0)).toBe(true)
+    const rosa = layout.packed.placed.find((p) => p.event.label.startsWith('Rosa'))!
+    expect(sam.lane).toBe(0)
+    expect(rosa.lane).toBe(1)
+  })
+
+  it('gives each friend their own colour', () => {
+    const layout = layoutFor('friends')
+    const fills = layout.packed.placed.map(
+      (p) => styleFor(p.event, new Map(doc.tags.map((t) => [t.id, t])), layout.colorVariant(p.event.id)).fill,
+    )
+    expect(new Set(fills).size).toBe(2)
+  })
+
+  it('carries an age scale, born 14 May 1986', () => {
+    expect(doc.meta.birthDay).toBe(born)
+    // University starts at 18 and the last job at 33.
+    const ageAt = (d: number) => Math.floor((d - born) / 365.2425)
+    expect(ageAt(doc.events.find((e) => e.label === 'University')!.start)).toBe(18)
+    expect(ageAt(doc.events.find((e) => e.label.startsWith('Third job'))!.start)).toBe(33)
   })
 
   it('carries the ongoing jobs and friendships to today', () => {

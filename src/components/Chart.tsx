@@ -9,6 +9,7 @@ import { barExtent, isVisible, MIN_BAR_PX, type RowLayout } from '../render/layo
 import { wasPanning } from '../render/panGuard'
 import { desaturate, styleFor, textOn } from '../render/style'
 import { truncateToWidth } from '../render/text'
+import { DAYS_PER_YEAR } from '../time/days'
 import { formatDayShort, formatDuration, formatTick, tickContext } from '../time/format'
 import { rungFor, ticksFor } from '../time/ladder'
 import { dayToX, pxPerDay, viewRange, type Camera } from '../time/scale'
@@ -21,35 +22,67 @@ export type BarHandlers = {
 
 // ---------------------------------------------------------------- axis
 
+export const AXIS_H = 46
+export const AXIS_H_WITH_AGE = 64
+
+export function axisHeight(birthDay: number | null): number {
+  return birthDay === null ? AXIS_H : AXIS_H_WITH_AGE
+}
+
+/** Whole years elapsed since birth, or null before it / with no birth day set. */
+function ageAt(day: number, birthDay: number | null): number | null {
+  if (birthDay === null) return null
+  const years = Math.floor((day - birthDay) / DAYS_PER_YEAR)
+  return years < 0 || years > 200 ? null : years
+}
+
 export const Axis = memo(function Axis({
   cam,
   width,
   today,
+  birthDay,
 }: {
   cam: Camera
   width: number
   today: number
+  birthDay: number | null
 }) {
   const scale = pxPerDay(cam)
   const rung = rungFor(scale)
   const { start, end } = viewRange(cam, width)
   const ticks = ticksFor(rung, start, end)
   const todayX = dayToX(today, cam)
+  const h = axisHeight(birthDay)
+  const ageRow = birthDay === null ? 0 : 18
 
   return (
-    <svg className="axis__svg" width={width} height={46} role="presentation">
-      <line className="axis__rule" x1={0} y1={45.5} x2={width} y2={45.5} />
+    <svg className="axis__svg" width={width} height={h} role="presentation">
+      <line className="axis__rule" x1={0} y1={h - 0.5} x2={width} y2={h - 0.5} />
+      {ageRow > 0 && (
+        <>
+          <rect className="axis__ageband" x={0} y={0} width={width} height={ageRow} />
+          <text className="axis__agelabel" x={4} y={13}>
+            age
+          </text>
+        </>
+      )}
       {ticks.map((t) => {
         const x = Math.round(dayToX(t.day, cam)) + 0.5
         const context = tickContext(t.day, rung)
+        const age = ageAt(t.day, birthDay)
         return (
           <g key={t.day} className={`axis__tick${t.major ? ' axis__tick--major' : ''}`}>
-            <line x1={x} y1={32} x2={x} y2={46} />
-            <text x={x + 4} y={16}>
+            <line x1={x} y1={ageRow + 32} x2={x} y2={h} />
+            {age !== null && (
+              <text className="axis__age" x={x + 4} y={13}>
+                {age}
+              </text>
+            )}
+            <text x={x + 4} y={ageRow + 16}>
               {formatTick(t.day, rung)}
             </text>
             {context && (
-              <text className="axis__context" x={x + 4} y={29}>
+              <text className="axis__context" x={x + 4} y={ageRow + 29}>
                 {context}
               </text>
             )}
@@ -57,7 +90,7 @@ export const Axis = memo(function Axis({
         )
       })}
       {todayX >= 0 && todayX <= width && (
-        <line className="axis__today" x1={todayX} y1={0} x2={todayX} y2={46} />
+        <line className="axis__today" x1={todayX} y1={0} x2={todayX} y2={h} />
       )}
     </svg>
   )
@@ -165,6 +198,10 @@ export const ChartRow = memo(function ChartRow({
                 y={l.y}
                 fill={l.kind === 'overflow' ? undefined : textOn(fill)}
                 fontSize={LABEL_FONT_SIZE}
+                // Turned labels read bottom-to-top, centred on their bar.
+                transform={l.kind === 'rotated' ? `rotate(-90, ${l.x}, ${l.y})` : undefined}
+                textAnchor={l.kind === 'rotated' ? 'middle' : undefined}
+                dominantBaseline={l.kind === 'rotated' ? 'central' : undefined}
               >
                 {l.text}
               </text>

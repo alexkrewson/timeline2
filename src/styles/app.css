@@ -728,6 +728,26 @@ select.field {
   font-weight: 600;
 }
 
+.axis__ageband {
+  fill: var(--bg-raised);
+  opacity: 0.5;
+}
+
+.axis__age {
+  fill: var(--text-secondary) !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.axis__agelabel {
+  fill: var(--text-tertiary);
+  font-size: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 .axis__context {
   fill: var(--text-tertiary) !important;
   font-size: 9px !important;

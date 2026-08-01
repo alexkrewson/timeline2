@@ -12,8 +12,9 @@
  * fits:
  *   1. absorbed by the row gutter — only when unambiguous (§6.3)
  *   2. inline, clamped to the viewport edge when the bar starts off-screen (§6.2)
- *   3. a floating lane above or below the row, with a leader line (§6.4)
- *   4. dropped — reported in `dropped` so the row can say so rather than
+ *   3. turned 90° inside a narrow but tall bar
+ *   4. a floating lane above or below the row, with a leader line (§6.4)
+ *   5. dropped — reported in `dropped` so the row can say so rather than
  *      quietly looking like there is nothing there
  *
  * The floating lanes are a fixed allowance (`LABEL_PAD`) reserved on every row
@@ -40,20 +41,26 @@ export const LABEL_PAD = LANES_PER_SIDE * LINE_H + 2
 const MIN_LABEL_BAR_H = LABEL_FONT_SIZE + 3
 /** Below this, an inline label would be pure ellipsis. */
 const MIN_INLINE_W = 26
+/** Horizontal room a turned label needs — the glyph height, plus breathing space. */
+const ROTATED_MIN_W = LABEL_FONT_SIZE + 5
+/** Vertical room a turned label needs before it is worth turning at all. */
+const ROTATED_MIN_H = 34
 /** Widest a floating label is allowed to get. */
 const MAX_FLOAT_W = 180
 
 const GAP_X = 4
 const GAP_Y = 1
 
-export type LabelKind = 'inline' | 'sticky' | 'overflow'
+export type LabelKind = 'inline' | 'sticky' | 'rotated' | 'overflow'
 
 export type PlacedLabel = {
   eventId: string
   text: string
   kind: LabelKind
+  /** For `rotated`, the centre of the bar; otherwise the start of the text. */
   x: number
-  /** Baseline y, relative to the row's content top (may be negative). */
+  /** Baseline y, relative to the row's content top (may be negative). For
+   *  `rotated`, the vertical centre the text is turned about. */
   y: number
   width: number
   leader?: { x1: number; y1: number; x2: number; y2: number }
@@ -192,12 +199,42 @@ export function planLabels(layout: RowLayout, opts: LabelOptions): LabelPlan {
       }
     }
 
+    // 2. Turned sideways, if the bar is too narrow for horizontal text but
+    // tall enough to read vertically. Better than a leader line because the
+    // label stays inside the thing it names.
+    const barW = Math.min(width, x1) - Math.max(0, x0)
+    if (barW >= ROTATED_MIN_W && seg.height >= ROTATED_MIN_H) {
+      const shown = truncateToWidth(text, seg.height - 8, LABEL_FONT_SIZE)
+      if (shown) {
+        const w = measureText(shown, LABEL_FONT_SIZE)
+        const cx = (Math.max(0, x0) + Math.min(width, x1)) / 2
+        const box: Box = {
+          x0: cx - LABEL_FONT_SIZE * 0.6,
+          x1: cx + LABEL_FONT_SIZE * 0.6,
+          y0: anchorY - w / 2,
+          y1: anchorY + w / 2,
+        }
+        if (!occupied.some((b) => hits(box, b))) {
+          occupied.push(box)
+          labels.push({
+            eventId: p.event.id,
+            text: shown,
+            kind: 'rotated',
+            x: cx,
+            y: anchorY,
+            width: w,
+          })
+          continue
+        }
+      }
+    }
+
     if (density === 'sparse') {
       dropped++
       continue
     }
 
-    // 2. A floating lane, nearest the row first.
+    // 3. A floating lane, nearest the row first.
     const w = Math.min(measureText(text, LABEL_FONT_SIZE), MAX_FLOAT_W)
     const shown = truncateToWidth(text, w, LABEL_FONT_SIZE)
     if (!shown) {

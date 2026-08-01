@@ -1,9 +1,10 @@
 {
- "schema": 2,
+ "schema": 3,
  "meta": {
   "title": "A sample life",
   "created": "2026-08-01T00:00:00.000Z",
-  "modified": "2026-08-01T00:00:00.000Z"
+  "modified": "2026-08-01T00:00:00.000Z",
+  "birthDay": 6666
  },
  "tags": [
   {

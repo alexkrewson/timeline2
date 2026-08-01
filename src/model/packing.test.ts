@@ -99,6 +99,33 @@ describe('sweep algorithm', () => {
     for (const p of row.placed) expect(p.segments[0].height).toBe(30)
   })
 
+  it("gives every event its own lane under packing:'per-event'", () => {
+    // These three would happily share two lanes under 'auto' and one under
+    // 'single'; 'per-event' is the "one person, one line" layout.
+    const row = packRow([ev('a', 0, 10), ev('b', 5, 20), ev('c', 30, 40)], {
+      ...OPTS,
+      packing: 'per-event',
+    })
+    expect(row.laneCount).toBe(3)
+    expect(new Set(row.placed.map((p) => p.lane)).size).toBe(3)
+    // No sharing means no sub-banding: every bar keeps the full lane height.
+    for (const p of row.placed) {
+      expect(p.segments).toHaveLength(1)
+      expect(p.segments[0].height).toBe(OPTS.laneHeight)
+    }
+    // Lanes follow start order.
+    const byLabel = Object.fromEntries(row.placed.map((p) => [p.event.label, p.lane]))
+    expect([byLabel.a, byLabel.b, byLabel.c]).toEqual([0, 1, 2])
+  })
+
+  it("flags per-event packing past maxLanes without dropping anything", () => {
+    const events = Array.from({ length: 9 }, (_, i) => ev(`e${i}`, i * 100, i * 100 + 50))
+    const row = packRow(events, { ...OPTS, packing: 'per-event' })
+    expect(row.laneCount).toBe(9)
+    expect(row.spilled).toBe(true)
+    expect(row.placed).toHaveLength(9)
+  })
+
   it('treats an instantaneous event as one day wide', () => {
     const row = packRow([ev('point', 42, 42)], OPTS)
     expect(bands(row, 'point')).toEqual([{ start: 42, endEx: 43, top: 0, height: 30 }])

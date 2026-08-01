@@ -205,8 +205,13 @@ export function buildExportSvg(
             `stroke="${c.textFaint}" stroke-width="1"/>`,
         )
       }
+      const turned =
+        l.kind === 'rotated'
+          ? ` transform="rotate(-90, ${x}, ${round(l.y)})" text-anchor="middle"` +
+            ' dominant-baseline="central"'
+          : ''
       parts.push(
-        `<text x="${x}" y="${round(l.y)}" font-size="${LABEL_FONT_SIZE}" font-weight="500" ` +
+        `<text x="${x}" y="${round(l.y)}" font-size="${LABEL_FONT_SIZE}" font-weight="500"${turned} ` +
           `fill="${l.kind === 'overflow' ? c.textDim : textOn(barFill)}">${esc(l.text)}</text>`,
       )
     }
